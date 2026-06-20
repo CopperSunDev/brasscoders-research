@@ -1,0 +1,386 @@
+{
+  "version": "1.0",
+  "updated": "2026-06-20",
+  "total_sources": 45,
+  "categories": [
+    {
+      "id": "cve-risk",
+      "question": "Will my AI-generated code ship a CVE?",
+      "url": "https://coppersun.dev/research/cve-risk/",
+      "source_count": 10,
+      "sources": [
+        {
+          "title": "State of Software Security 2026",
+          "type": "survey",
+          "author": "Veracode",
+          "year": 2026,
+          "url": "https://www.veracode.com/state-of-software-security/"
+        },
+        {
+          "title": "AI-Generated Code Vulnerability Surge 2026",
+          "type": "survey",
+          "author": "Cloud Security Alliance Labs",
+          "year": 2026,
+          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-generated-code-vulnerability-surge-2026/"
+        },
+        {
+          "title": "Evaluating GitHub Copilot Review",
+          "type": "paper",
+          "author": "ACM TOSEM",
+          "year": 2026,
+          "url": "https://dl.acm.org/journal/tosem"
+        },
+        {
+          "title": "OWASP Top 10 for LLM Applications",
+          "type": "paper",
+          "author": "OWASP",
+          "year": 2024,
+          "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+        },
+        {
+          "title": "Bandit",
+          "type": "tool",
+          "author": "PyCQA",
+          "year": null,
+          "url": "https://github.com/PyCQA/bandit"
+        },
+        {
+          "title": "Semgrep",
+          "type": "tool",
+          "author": "Semgrep",
+          "year": null,
+          "url": "https://semgrep.dev/"
+        },
+        {
+          "title": "detect-secrets",
+          "type": "tool",
+          "author": "Yelp",
+          "year": null,
+          "url": "https://github.com/Yelp/detect-secrets"
+        },
+        {
+          "title": "OWASP PyGoat",
+          "type": "benchmark",
+          "author": "OWASP",
+          "year": null,
+          "url": "https://github.com/adeyosemanputra/pygoat"
+        },
+        {
+          "title": "OWASP NodeGoat",
+          "type": "benchmark",
+          "author": "OWASP",
+          "year": null,
+          "url": "https://github.com/OWASP/NodeGoat"
+        },
+        {
+          "title": "Snyk Goof",
+          "type": "benchmark",
+          "author": "Snyk",
+          "year": null,
+          "url": "https://github.com/snyk-labs/nodejs-goof"
+        }
+      ]
+    },
+    {
+      "id": "slopsquatting",
+      "question": "Will my AI hallucinate an import?",
+      "url": "https://coppersun.dev/research/slopsquatting/",
+      "source_count": 5,
+      "sources": [
+        {
+          "title": "Package Hallucination at Scale",
+          "type": "paper",
+          "author": "USENIX Security",
+          "year": 2025,
+          "url": "https://www.usenix.org/conference/usenixsecurity25"
+        },
+        {
+          "title": "Slopsquatting Proof-of-Concept",
+          "type": "survey",
+          "author": "Lasso Security",
+          "year": 2024,
+          "url": "https://www.lasso.security/"
+        },
+        {
+          "title": "Socket CLI",
+          "type": "tool",
+          "author": "Socket.dev",
+          "year": null,
+          "url": "https://socket.dev/"
+        },
+        {
+          "title": "deps.dev",
+          "type": "tool",
+          "author": "Google",
+          "year": null,
+          "url": "https://deps.dev/"
+        },
+        {
+          "title": "State of the Software Supply Chain",
+          "type": "survey",
+          "author": "Sonatype",
+          "year": 2024,
+          "url": "https://www.sonatype.com/state-of-the-software-supply-chain/introduction"
+        }
+      ]
+    },
+    {
+      "id": "cross-file-bugs",
+      "question": "Why does my AI miss cross-file bugs?",
+      "url": "https://coppersun.dev/research/cross-file-bugs/",
+      "source_count": 5,
+      "sources": [
+        {
+          "title": "Lost in the Middle: How Language Models Use Long Contexts",
+          "type": "paper",
+          "author": "Liu et al.",
+          "year": 2023,
+          "url": "https://arxiv.org/abs/2307.03172"
+        },
+        {
+          "title": "Pyre / Pysa",
+          "type": "tool",
+          "author": "Meta",
+          "year": null,
+          "url": "https://pyre-check.org/"
+        },
+        {
+          "title": "CodeQL",
+          "type": "tool",
+          "author": "GitHub",
+          "year": null,
+          "url": "https://codeql.github.com/"
+        },
+        {
+          "title": "ast-grep",
+          "type": "tool",
+          "author": "ast-grep contributors",
+          "year": null,
+          "url": "https://ast-grep.github.io/"
+        },
+        {
+          "title": "Pyre: Fast Type Checking for Python",
+          "type": "paper",
+          "author": "Meta Engineering",
+          "year": 2019,
+          "url": "https://engineering.fb.com/2018/05/22/developer-tools/pyre-fast-type-checking-for-python/"
+        }
+      ]
+    },
+    {
+      "id": "llm-review-reliability",
+      "question": "How reliable is my AI assistant's review?",
+      "url": "https://coppersun.dev/research/llm-review-reliability/",
+      "source_count": 5,
+      "sources": [
+        {
+          "title": "Evaluating GitHub Copilot Review",
+          "type": "paper",
+          "author": "ACM TOSEM",
+          "year": 2026,
+          "url": "https://dl.acm.org/journal/tosem"
+        },
+        {
+          "title": "Stack Overflow Developer Survey 2024 (AI section)",
+          "type": "survey",
+          "author": "Stack Overflow",
+          "year": 2024,
+          "url": "https://survey.stackoverflow.co/2024/ai"
+        },
+        {
+          "title": "AI Tooling Feb 2026",
+          "type": "survey",
+          "author": "The Pragmatic Engineer",
+          "year": 2026,
+          "url": "https://newsletter.pragmaticengineer.com/p/ai-tooling-2026"
+        },
+        {
+          "title": "Copilot Code Quality Studies",
+          "type": "paper",
+          "author": "Stanford HAI",
+          "year": 2024,
+          "url": "https://hai.stanford.edu/research"
+        },
+        {
+          "title": "GitHub Octoverse 2024",
+          "type": "survey",
+          "author": "GitHub",
+          "year": 2024,
+          "url": "https://octoverse.github.com/"
+        }
+      ]
+    },
+    {
+      "id": "market-intelligence",
+      "question": "What does the AI-coding market look like in 2026?",
+      "url": "https://coppersun.dev/research/market-intelligence/",
+      "source_count": 5,
+      "sources": [
+        {
+          "title": "AI Code Assistant Adoption Projection",
+          "type": "survey",
+          "author": "Gartner",
+          "year": 2024,
+          "url": "https://www.gartner.com/en/newsroom/press-releases/2024-04-11-gartner-says-75-percent-of-enterprise-software-engineers-will-use-ai-code-assistants-by-2028"
+        },
+        {
+          "title": "FY26 Q2 Earnings — GitHub Copilot 4.7M Paid Subscribers",
+          "type": "company",
+          "author": "Microsoft",
+          "year": 2026,
+          "url": "https://www.sec.gov/Archives/edgar/data/0000789019/000095017025061032/msft-ex99_1.htm"
+        },
+        {
+          "title": "Cursor / Anysphere ARR Disclosures 2025-2026",
+          "type": "company",
+          "author": "Anysphere / Cursor",
+          "year": 2026,
+          "url": "https://techcrunch.com/2025/06/05/cursors-anysphere-nabs-9-9b-valuation-soars-past-500m-arr/"
+        },
+        {
+          "title": "Claude Code Run-Rate Disclosures 2026",
+          "type": "company",
+          "author": "Anthropic",
+          "year": 2026,
+          "url": null
+        },
+        {
+          "title": "AI Adoption Series 2024-2026",
+          "type": "survey",
+          "author": "The Pragmatic Engineer",
+          "year": 2026,
+          "url": "https://newsletter.pragmaticengineer.com/"
+        }
+      ]
+    },
+    {
+      "id": "performance-anti-patterns",
+      "question": "Will my AI write slow code?",
+      "url": "https://coppersun.dev/research/performance-anti-patterns/",
+      "source_count": 7,
+      "sources": [
+        {
+          "title": "EffiBench: Benchmarking the Efficiency of Automatically Generated Code",
+          "type": "paper",
+          "author": "Huang, Dong et al.",
+          "year": 2024,
+          "url": "https://arxiv.org/abs/2402.02037"
+        },
+        {
+          "title": "Mercury: A Code Efficiency Benchmark for Code Large Language Models",
+          "type": "paper",
+          "author": "Du, Mingzhe et al.",
+          "year": 2024,
+          "url": "https://arxiv.org/abs/2402.07844"
+        },
+        {
+          "title": "ENAMEL: How Efficient Is LLM-Generated Code?",
+          "type": "paper",
+          "author": "Qiu, Ruizhong et al.",
+          "year": 2024,
+          "url": "https://arxiv.org/abs/2406.06647"
+        },
+        {
+          "title": "radon",
+          "type": "tool",
+          "author": "rubik",
+          "year": null,
+          "url": "https://github.com/rubik/radon"
+        },
+        {
+          "title": "py-spy",
+          "type": "tool",
+          "author": "benfred",
+          "year": null,
+          "url": "https://github.com/benfred/py-spy"
+        },
+        {
+          "title": "Scalene",
+          "type": "tool",
+          "author": "plasma-umass",
+          "year": null,
+          "url": "https://github.com/plasma-umass/scalene"
+        },
+        {
+          "title": "BrassCoders AI-Coder-Bugs Corpus",
+          "type": "benchmark",
+          "author": "Copper Sun Brass",
+          "year": 2026,
+          "url": "https://github.com/CopperSunDev/brasscoders"
+        }
+      ]
+    },
+    {
+      "id": "secret-leakage",
+      "question": "Will my AI-generated code leak my credentials?",
+      "url": "https://coppersun.dev/research/secret-leakage/",
+      "source_count": 4,
+      "sources": [
+        {
+          "title": "State of Secrets Sprawl 2024",
+          "type": "survey",
+          "author": "GitGuardian",
+          "year": 2024,
+          "url": "https://www.gitguardian.com/state-of-secrets-sprawl"
+        },
+        {
+          "title": "Samsung / ChatGPT Credential Disclosure",
+          "type": "company",
+          "author": "Samsung Electronics",
+          "year": 2023,
+          "url": "https://techcrunch.com/2023/05/02/samsung-bans-chatgpt-and-other-ai-tools-amid-employee-leaks/"
+        },
+        {
+          "title": "Quantifying Memorization Across Neural Language Models",
+          "type": "paper",
+          "author": "Carlini, Nicholas et al.",
+          "year": 2023,
+          "url": "https://arxiv.org/abs/2202.07646"
+        },
+        {
+          "title": "detect-secrets",
+          "type": "tool",
+          "author": "Yelp Engineering",
+          "year": null,
+          "url": "https://github.com/Yelp/detect-secrets"
+        }
+      ]
+    },
+    {
+      "id": "dependency-confusion",
+      "question": "Will my AI mix up internal and public packages?",
+      "url": "https://coppersun.dev/research/dependency-confusion/",
+      "source_count": 4,
+      "sources": [
+        {
+          "title": "Dependency Confusion: How I Hacked Into Apple and Microsoft",
+          "type": "paper",
+          "author": "Alex Birsan",
+          "year": 2021,
+          "url": "https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610"
+        },
+        {
+          "title": "GitHub Advisory Database (GHSA)",
+          "type": "tool",
+          "author": "GitHub Security",
+          "year": null,
+          "url": "https://github.com/advisories"
+        },
+        {
+          "title": "Next-Generation Supply Chain Attacks (State of Software Supply Chain)",
+          "type": "survey",
+          "author": "Sonatype",
+          "year": 2024,
+          "url": "https://www.sonatype.com/state-of-the-software-supply-chain/introduction"
+        },
+        {
+          "title": "AI Hallucination × Dependency Confusion Overlap",
+          "type": "paper",
+          "author": "BrassCoders synthesis",
+          "year": 2026,
+          "url": "https://coppersun.dev/research/dependency-confusion/"
+        }
+      ]
+    }
+  ]
+}

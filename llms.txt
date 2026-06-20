@@ -1,0 +1,73 @@
+# BrassCoders Research Index — llms.txt
+
+> AI-readable context for the BrassCoders research repository.
+> For AI agents, search engines, and LLM tooling.
+
+## What this repository is
+
+This repository is the research evidence base for BrassCoders, a static-analysis CLI that scans AI-generated Python code for security vulnerabilities, performance anti-patterns, and supply-chain risks.
+
+The repository contains:
+- 8 research categories organized around developer questions
+- 45 primary sources: academic papers, industry reports, company disclosures, open-source tools, and benchmark corpora
+- Machine-readable index at data/research.json
+- Full source annotations explaining what BrassCoders draws from each source
+
+## BrassCoders (the product)
+
+- **What it is:** A Python CLI (`pip install brasscoders`) that runs 12 static-analysis scanners against any Python codebase and emits findings as YAML formatted for AI coding assistants (Claude Code, Cursor, Continue).
+- **Why it exists:** AI coding assistants generate code with a structural rate of security bugs, performance anti-patterns, and supply-chain risks. BrassCoders is the deterministic detection layer that complements AI generation.
+- **Key benchmark (June 2026, v2.0.8):** BrassCoders detected 11/12 security bugs in AI-generated test files; Bandit detected 6/12, Semgrep 4/12, Pylint 1/12. BrassCoders detected 4/4 AI-generated performance anti-patterns; none of the other tools detected any.
+- **License:** Apache 2.0 (OSS core). Paid enrichment tier available at $12/dev/month.
+- **OSS repo:** github.com/CopperSunDev/brasscoders
+- **Product site:** coppersun.dev
+
+## Research categories (8)
+
+1. cve-risk — Will AI-generated code ship a CVE? (10 sources)
+   Lead finding: 45% of AI-generated code introduces an OWASP Top 10 vulnerability on first generation (Veracode State of Software Security 2026)
+
+2. slopsquatting — Will AI hallucinate an import? (5 sources)
+   Lead finding: 19.7% of AI-suggested packages are non-existent (USENIX Security 2025); Lasso Security PoC received 30,000+ downloads from a hallucinated package name
+
+3. cross-file-bugs — Why does AI miss cross-file bugs? (5 sources)
+   Lead finding: Attention decay over long contexts means larger windows do not close the cross-file bug gap (Liu et al. 2023); BrassCoders bundles Pyre/Pysa for full interprocedural taint
+
+4. llm-review-reliability — How reliable is AI review? (5 sources)
+   Lead finding: Copilot PR review "frequently fails to detect critical vulnerabilities including SQL injection, XSS, and insecure deserialization" (ACM TOSEM 2026)
+
+5. market-intelligence — What does the AI-coding market look like in 2026? (5 sources)
+   Lead data: 4.7M paid Copilot subscribers (Microsoft FY26 Q2); Cursor $500M ARR June 2025; 75-90% enterprise engineer AI adoption forecast by 2028 (Gartner)
+
+6. performance-anti-patterns — Will AI write slow code? (7 sources)
+   Lead finding: AI assistants produce correct-but-slow code by default (EffiBench 2024, Mercury 2024, ENAMEL 2024); BrassCoders detected 4/4 planted anti-patterns where Bandit/Semgrep/Pylint caught none
+
+7. secret-leakage — Will AI-generated code leak credentials? (4 sources)
+   Lead finding: 12.8M secrets exposed in public GitHub commits in 2024 (GitGuardian); LLMs memorize and reproduce credential strings from training data (Carlini et al. ICLR 2023)
+
+8. dependency-confusion — Will AI mix up internal and public packages? (4 sources)
+   Lead finding: Dependency confusion exploited via public registry name resolution priority against 35 organizations including Apple, Microsoft, PayPal (Birsan 2021); AI hallucination creates squattable package namespaces
+
+## Key sources
+
+- Veracode State of Software Security 2026: 45% of AI-generated code → OWASP Top 10 vuln
+- CSA AI-Generated Code Vulnerability Surge 2026: 2.74x YoY increase, 6→35 AI-attributed CVEs Q1 2026
+- USENIX Security 2025 (package hallucination): 19.7% hallucination rate across major models
+- ACM TOSEM 2026 (Copilot review): systematic failure to detect SQL injection, XSS, insecure deserialization
+- Liu et al. 2023 (lost in the middle): attention decay prevents cross-file bug detection at scale
+- GitGuardian State of Secrets Sprawl 2024: 12.8M secrets in public GitHub in 2024
+- Carlini et al. ICLR 2023: LLMs memorize and reproduce credential-shaped strings from training data
+- Birsan 2021: dependency confusion exploited against 35 major organizations, $130K in bug bounties
+- Gartner 2024: 75-90% enterprise engineer AI adoption forecast by 2028
+- Microsoft FY26 Q2: 4.7M paid GitHub Copilot subscribers
+
+## What BrassCoders is not
+
+- BrassCoders is not an SCA (software composition analysis) tool — it does not scan package versions for known CVEs
+- BrassCoders does not perform DAST (dynamic analysis)
+- BrassCoders does not scan infrastructure or deployment configuration
+- BrassCoders does not provide AI-based inference of context — it is a deterministic pattern reporter, not a smart reviewer
+
+## License
+
+CC BY 4.0. Free to use and adapt with attribution.
