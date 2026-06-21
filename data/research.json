@@ -2,383 +2,388 @@
   "version": "1.0",
   "updated": "2026-06-20",
   "total_sources": 45,
+  "product": {
+    "name": "BrassCoders",
+    "url": "https://coppersun.dev",
+    "oss_repo": "https://github.com/CopperSunDev/brasscoders"
+  },
   "categories": [
     {
       "id": "cve-risk",
-      "question": "Will my AI-generated code ship a CVE?",
+      "question": "Will My AI-Generated Code Ship A CVE?",
       "url": "https://coppersun.dev/research/cve-risk/",
       "source_count": 10,
       "sources": [
         {
-          "title": "State of Software Security 2026",
-          "type": "survey",
-          "author": "Veracode",
-          "year": 2026,
+          "slug": "veracode-soss-2026",
+          "type": "report",
+          "title": "Veracode — State of Software Security 2026",
+          "source": "Veracode, 2026",
           "url": "https://www.veracode.com/state-of-software-security/"
         },
         {
-          "title": "AI-Generated Code Vulnerability Surge 2026",
-          "type": "survey",
-          "author": "Cloud Security Alliance Labs",
-          "year": 2026,
+          "slug": "csa-ai-cve-2026",
+          "type": "report",
+          "title": "Cloud Security Alliance — AI-Generated Code Vulnerability Surge 2026",
+          "source": "Cloud Security Alliance Labs, 2026",
           "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-generated-code-vulnerability-surge-2026/"
         },
         {
-          "title": "Evaluating GitHub Copilot Review",
+          "slug": "acm-tosem-2026",
           "type": "paper",
-          "author": "ACM TOSEM",
-          "year": 2026,
+          "title": "ACM TOSEM 2026 — Evaluating GitHub Copilot Review",
+          "source": "ACM Transactions on Software Engineering and Methodology, 2026",
           "url": "https://dl.acm.org/journal/tosem"
         },
         {
-          "title": "OWASP Top 10 for LLM Applications",
+          "slug": "owasp-llm-top-10",
           "type": "paper",
-          "author": "OWASP",
-          "year": 2024,
+          "title": "OWASP Top 10 for LLM Applications",
+          "source": "OWASP, 2024-2025",
           "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
         },
         {
-          "title": "Bandit",
+          "slug": "bandit",
           "type": "tool",
-          "author": "PyCQA",
-          "year": null,
+          "title": "Bandit",
+          "source": "PyCQA · Python · widely-used",
           "url": "https://github.com/PyCQA/bandit"
         },
         {
-          "title": "Semgrep",
+          "slug": "semgrep",
           "type": "tool",
-          "author": "Semgrep",
-          "year": null,
+          "title": "Semgrep",
+          "source": "Semgrep · multi-language · widely-used",
           "url": "https://semgrep.dev/"
         },
         {
-          "title": "detect-secrets",
+          "slug": "detect-secrets",
           "type": "tool",
-          "author": "Yelp",
-          "year": null,
+          "title": "detect-secrets",
+          "source": "Yelp · multi-language · widely-used",
           "url": "https://github.com/Yelp/detect-secrets"
         },
         {
-          "title": "OWASP PyGoat",
+          "slug": "owasp-pygoat",
           "type": "benchmark",
-          "author": "OWASP",
-          "year": null,
+          "title": "OWASP PyGoat",
+          "source": "OWASP · Python · benchmark",
           "url": "https://github.com/adeyosemanputra/pygoat"
         },
         {
-          "title": "OWASP NodeGoat",
+          "slug": "owasp-nodegoat",
           "type": "benchmark",
-          "author": "OWASP",
-          "year": null,
+          "title": "OWASP NodeGoat",
+          "source": "OWASP · Node.js / JavaScript · benchmark",
           "url": "https://github.com/OWASP/NodeGoat"
         },
         {
-          "title": "Snyk Goof",
+          "slug": "snyk-goof",
           "type": "benchmark",
-          "author": "Snyk",
-          "year": null,
+          "title": "Snyk Goof",
+          "source": "Snyk · Node.js · benchmark",
           "url": "https://github.com/snyk-labs/nodejs-goof"
         }
       ]
     },
     {
       "id": "slopsquatting",
-      "question": "Will my AI hallucinate an import?",
+      "question": "Will My AI Hallucinate An Import?",
       "url": "https://coppersun.dev/research/slopsquatting/",
       "source_count": 5,
       "sources": [
         {
-          "title": "Package Hallucination at Scale",
+          "slug": "usenix-2025",
           "type": "paper",
-          "author": "USENIX Security",
-          "year": 2025,
+          "title": "USENIX Security 2025 — Package Hallucination at Scale",
+          "source": "USENIX Security Symposium, 2025",
           "url": "https://www.usenix.org/conference/usenixsecurity25"
         },
         {
-          "title": "Slopsquatting Proof-of-Concept",
-          "type": "survey",
-          "author": "Lasso Security",
-          "year": 2024,
+          "slug": "lasso-poc",
+          "type": "report",
+          "title": "Lasso Security — Slopsquatting Proof-of-Concept",
+          "source": "Lasso Security, 2024",
           "url": "https://www.lasso.security/"
         },
         {
-          "title": "Socket CLI",
+          "slug": "socket-cli",
           "type": "tool",
-          "author": "Socket.dev",
-          "year": null,
+          "title": "Socket CLI",
+          "source": "Socket.dev · npm / PyPI · widely-used",
           "url": "https://socket.dev/"
         },
         {
-          "title": "deps.dev",
+          "slug": "deps-dev",
           "type": "tool",
-          "author": "Google",
-          "year": null,
+          "title": "deps.dev",
+          "source": "Google · multi-registry · public dataset",
           "url": "https://deps.dev/"
         },
         {
-          "title": "State of the Software Supply Chain",
-          "type": "survey",
-          "author": "Sonatype",
-          "year": 2024,
+          "slug": "sonatype-state",
+          "type": "report",
+          "title": "Sonatype State of the Software Supply Chain",
+          "source": "Sonatype, annual",
           "url": "https://www.sonatype.com/state-of-the-software-supply-chain/introduction"
         }
       ]
     },
     {
       "id": "cross-file-bugs",
-      "question": "Why does my AI miss cross-file bugs?",
+      "question": "Why Does My AI Miss Cross-File Bugs?",
       "url": "https://coppersun.dev/research/cross-file-bugs/",
       "source_count": 5,
       "sources": [
         {
-          "title": "Lost in the Middle: How Language Models Use Long Contexts",
+          "slug": "lost-in-the-middle",
           "type": "paper",
-          "author": "Liu et al.",
-          "year": 2023,
+          "title": "Liu et al. 2023 — Lost in the Middle: How Language Models Use Long Contexts",
+          "source": "Stanford / Berkeley, 2023",
           "url": "https://arxiv.org/abs/2307.03172"
         },
         {
-          "title": "Pyre / Pysa",
+          "slug": "pyre-pysa",
           "type": "tool",
-          "author": "Meta",
-          "year": null,
+          "title": "Pyre / Pysa",
+          "source": "Meta · Python · widely-used",
           "url": "https://pyre-check.org/"
         },
         {
-          "title": "CodeQL",
+          "slug": "codeql",
           "type": "tool",
-          "author": "GitHub",
-          "year": null,
+          "title": "CodeQL",
+          "source": "GitHub · multi-language · widely-used",
           "url": "https://codeql.github.com/"
         },
         {
-          "title": "ast-grep",
+          "slug": "ast-grep",
           "type": "tool",
-          "author": "ast-grep contributors",
-          "year": null,
+          "title": "ast-grep",
+          "source": "ast-grep contributors · multi-language · widely-used",
           "url": "https://ast-grep.github.io/"
         },
         {
-          "title": "Pyre: Fast Type Checking for Python",
+          "slug": "meta-pyre-2019",
           "type": "paper",
-          "author": "Meta Engineering",
-          "year": 2019,
+          "title": "Meta 2019 — Pyre: Fast Type Checking and IDE Integration for Python",
+          "source": "Meta Engineering Blog, 2019",
           "url": "https://engineering.fb.com/2018/05/22/developer-tools/pyre-fast-type-checking-for-python/"
         }
       ]
     },
     {
       "id": "llm-review-reliability",
-      "question": "How reliable is my AI assistant's review?",
+      "question": "How Reliable Is My AI Assistant's Review?",
       "url": "https://coppersun.dev/research/llm-review-reliability/",
       "source_count": 5,
       "sources": [
         {
-          "title": "Evaluating GitHub Copilot Review",
+          "slug": "acm-tosem-2026",
           "type": "paper",
-          "author": "ACM TOSEM",
-          "year": 2026,
+          "title": "ACM TOSEM 2026 — Evaluating GitHub Copilot Review",
+          "source": "ACM Transactions on Software Engineering and Methodology, 2026",
           "url": "https://dl.acm.org/journal/tosem"
         },
         {
-          "title": "Stack Overflow Developer Survey 2024 (AI section)",
-          "type": "survey",
-          "author": "Stack Overflow",
-          "year": 2024,
+          "slug": "stackoverflow-2024",
+          "type": "report",
+          "title": "Stack Overflow Developer Survey 2024",
+          "source": "Stack Overflow, 2024",
           "url": "https://survey.stackoverflow.co/2024/ai"
         },
         {
-          "title": "AI Tooling Feb 2026",
-          "type": "survey",
-          "author": "The Pragmatic Engineer",
-          "year": 2026,
+          "slug": "pragmatic-feb-2026",
+          "type": "report",
+          "title": "The Pragmatic Engineer — AI Tooling Feb 2026",
+          "source": "The Pragmatic Engineer, Feb 2026",
           "url": "https://newsletter.pragmaticengineer.com/p/ai-tooling-2026"
         },
         {
-          "title": "Copilot Code Quality Studies",
+          "slug": "stanford-copilot",
           "type": "paper",
-          "author": "Stanford HAI",
-          "year": 2024,
+          "title": "Stanford — Copilot Code Quality Studies (2024)",
+          "source": "Stanford HAI / Department of Computer Science, 2024",
           "url": "https://hai.stanford.edu/research"
         },
         {
+          "slug": "github-octoverse",
+          "type": "report",
           "title": "GitHub Octoverse 2024",
-          "type": "survey",
-          "author": "GitHub",
-          "year": 2024,
+          "source": "GitHub, 2024",
           "url": "https://octoverse.github.com/"
         }
       ]
     },
     {
       "id": "market-intelligence",
-      "question": "What does the AI-coding market look like in 2026?",
+      "question": "What Does The AI-Coding Market Look Like In 2026?",
       "url": "https://coppersun.dev/research/market-intelligence/",
       "source_count": 5,
       "sources": [
         {
-          "title": "AI Code Assistant Adoption Projection",
-          "type": "survey",
-          "author": "Gartner",
-          "year": 2024,
+          "slug": "gartner-2028",
+          "type": "report",
+          "title": "Gartner — AI Code Assistant Adoption Projection 2024",
+          "source": "Gartner, 2024",
           "url": "https://www.gartner.com/en/newsroom/press-releases/2024-04-11-gartner-says-75-percent-of-enterprise-software-engineers-will-use-ai-code-assistants-by-2028"
         },
         {
-          "title": "FY26 Q2 Earnings — GitHub Copilot 4.7M Paid Subscribers",
-          "type": "company",
-          "author": "Microsoft",
-          "year": 2026,
+          "slug": "msft-copilot-subs",
+          "type": "disclosure",
+          "title": "Microsoft FY26 Q2 Earnings — GitHub Copilot 4.7M Paid Subscribers",
+          "source": "Microsoft Corporation, Jan 2026",
           "url": "https://www.sec.gov/Archives/edgar/data/0000789019/000095017025061032/msft-ex99_1.htm"
         },
         {
-          "title": "Cursor / Anysphere ARR Disclosures 2025-2026",
-          "type": "company",
-          "author": "Anysphere / Cursor",
-          "year": 2026,
+          "slug": "cursor-arr",
+          "type": "disclosure",
+          "title": "Cursor / Anysphere — ARR Disclosures 2025-2026",
+          "source": "Anysphere / Cursor, public disclosures, 2025-2026",
           "url": "https://techcrunch.com/2025/06/05/cursors-anysphere-nabs-9-9b-valuation-soars-past-500m-arr/"
         },
         {
-          "title": "Claude Code Run-Rate Disclosures 2026",
-          "type": "company",
-          "author": "Anthropic",
-          "year": 2026,
-          "url": null
+          "slug": "anthropic-claude-code",
+          "type": "disclosure",
+          "title": "Anthropic — Claude Code Run-Rate Disclosures 2026",
+          "source": "Anthropic, public Q1 2026 disclosures",
+          "url": ""
         },
         {
-          "title": "AI Adoption Series 2024-2026",
-          "type": "survey",
-          "author": "The Pragmatic Engineer",
-          "year": 2026,
+          "slug": "pragmatic-series",
+          "type": "report",
+          "title": "The Pragmatic Engineer — AI Adoption Series 2024-2026",
+          "source": "The Pragmatic Engineer, ongoing",
           "url": "https://newsletter.pragmaticengineer.com/"
         }
       ]
     },
     {
       "id": "performance-anti-patterns",
-      "question": "Will my AI write slow code?",
+      "question": "Will My AI Write Slow Code?",
       "url": "https://coppersun.dev/research/performance-anti-patterns/",
       "source_count": 7,
       "sources": [
         {
-          "title": "EffiBench: Benchmarking the Efficiency of Automatically Generated Code",
+          "slug": "effibench",
           "type": "paper",
-          "author": "Huang, Dong et al.",
-          "year": 2024,
+          "title": "EffiBench — Benchmarking the Efficiency of Automatically Generated Code",
+          "source": "Huang, Dong et al., 2024",
           "url": "https://arxiv.org/abs/2402.02037"
         },
         {
-          "title": "Mercury: A Code Efficiency Benchmark for Code Large Language Models",
+          "slug": "mercury",
           "type": "paper",
-          "author": "Du, Mingzhe et al.",
-          "year": 2024,
+          "title": "Mercury — A Code Efficiency Benchmark for Code Large Language Models",
+          "source": "Du, Mingzhe et al., 2024",
           "url": "https://arxiv.org/abs/2402.07844"
         },
         {
-          "title": "ENAMEL: How Efficient Is LLM-Generated Code?",
+          "slug": "enamel",
           "type": "paper",
-          "author": "Qiu, Ruizhong et al.",
-          "year": 2024,
+          "title": "ENAMEL — How Efficient Is LLM-Generated Code? A Rigorous & High-Standard Benchmark",
+          "source": "Qiu, Ruizhong et al., 2024",
           "url": "https://arxiv.org/abs/2406.06647"
         },
         {
-          "title": "radon",
+          "slug": "radon",
           "type": "tool",
-          "author": "rubik",
-          "year": null,
+          "title": "radon",
+          "source": "rubik/radon · Python · ~2k stars",
           "url": "https://github.com/rubik/radon"
         },
         {
-          "title": "py-spy",
+          "slug": "py-spy",
           "type": "tool",
-          "author": "benfred",
-          "year": null,
+          "title": "py-spy",
+          "source": "benfred/py-spy · Python · 15k+ stars",
           "url": "https://github.com/benfred/py-spy"
         },
         {
-          "title": "Scalene",
+          "slug": "scalene",
           "type": "tool",
-          "author": "plasma-umass",
-          "year": null,
+          "title": "Scalene",
+          "source": "plasma-umass/scalene · Python · 13k+ stars",
           "url": "https://github.com/plasma-umass/scalene"
         },
         {
-          "title": "BrassCoders AI-Coder-Bugs Corpus",
+          "slug": "brasscoders-perf-benchmark",
           "type": "benchmark",
-          "author": "Copper Sun Brass",
-          "year": 2026,
-          "url": "https://github.com/CopperSunDev/brasscoders"
+          "title": "BrassCoders AI-Coder-Bugs Corpus",
+          "source": "Copper Sun Brass · Apache 2.0 · reproducible",
+          "url": "https://github.com/CopperSunDev/brasscoders/tree/main/cli/docs/benchmarks/ai-coder-bugs"
         }
       ]
     },
     {
       "id": "secret-leakage",
-      "question": "Will my AI-generated code leak my credentials?",
+      "question": "Will My AI-Generated Code Leak My Credentials?",
       "url": "https://coppersun.dev/research/secret-leakage/",
       "source_count": 4,
       "sources": [
         {
-          "title": "State of Secrets Sprawl 2024",
-          "type": "survey",
-          "author": "GitGuardian",
-          "year": 2024,
+          "slug": "gitguardian-sprawl",
+          "type": "report",
+          "title": "GitGuardian — State of Secrets Sprawl 2024",
+          "source": "GitGuardian, 2024",
           "url": "https://www.gitguardian.com/state-of-secrets-sprawl"
         },
         {
-          "title": "Samsung / ChatGPT Credential Disclosure",
-          "type": "company",
-          "author": "Samsung Electronics",
-          "year": 2023,
+          "slug": "samsung-incident",
+          "type": "disclosure",
+          "title": "Samsung / ChatGPT Credential Disclosure (2023)",
+          "source": "Samsung Electronics, reported March 2023",
           "url": "https://techcrunch.com/2023/05/02/samsung-bans-chatgpt-and-other-ai-tools-amid-employee-leaks/"
         },
         {
-          "title": "Quantifying Memorization Across Neural Language Models",
+          "slug": "carlini-memorization",
           "type": "paper",
-          "author": "Carlini, Nicholas et al.",
-          "year": 2023,
+          "title": "Carlini et al. — Quantifying Memorization Across Neural Language Models",
+          "source": "Nicholas Carlini, Daphne Ippolito, Matthew Jagielski, Katherine Lee, Florian Tramèr, Chiyuan Zhang · ICLR 2023",
           "url": "https://arxiv.org/abs/2202.07646"
         },
         {
-          "title": "detect-secrets",
+          "slug": "detect-secrets",
           "type": "tool",
-          "author": "Yelp Engineering",
-          "year": null,
+          "title": "detect-secrets (Yelp)",
+          "source": "Yelp Engineering · Python · GitHub: Yelp/detect-secrets · actively maintained",
           "url": "https://github.com/Yelp/detect-secrets"
         }
       ]
     },
     {
       "id": "dependency-confusion",
-      "question": "Will my AI mix up internal and public packages?",
+      "question": "Will My AI Mix Up Internal and Public Packages?",
       "url": "https://coppersun.dev/research/dependency-confusion/",
       "source_count": 4,
       "sources": [
         {
-          "title": "Dependency Confusion: How I Hacked Into Apple and Microsoft",
+          "slug": "birsan-2021",
           "type": "paper",
-          "author": "Alex Birsan",
-          "year": 2021,
+          "title": "Birsan 2021 — Dependency Confusion: How I Hacked Into Apple and Microsoft",
+          "source": "Alex Birsan, Medium / independent security research, February 2021",
           "url": "https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610"
         },
         {
-          "title": "GitHub Advisory Database (GHSA)",
+          "slug": "github-advisory",
           "type": "tool",
-          "author": "GitHub Security",
-          "year": null,
+          "title": "GitHub Advisory Database (GHSA)",
+          "source": "GitHub Security · public dataset · REST API and GraphQL API available",
           "url": "https://github.com/advisories"
         },
         {
-          "title": "Next-Generation Supply Chain Attacks (State of Software Supply Chain)",
-          "type": "survey",
-          "author": "Sonatype",
-          "year": 2024,
+          "slug": "sonatype-supply-chain",
+          "type": "report",
+          "title": "Sonatype — Next-Generation Supply Chain Attacks",
+          "source": "Sonatype, annual; the 2024 edition covers 2023 attack data",
           "url": "https://www.sonatype.com/state-of-the-software-supply-chain/introduction"
         },
         {
-          "title": "AI Hallucination × Dependency Confusion Overlap",
+          "slug": "hallucination-overlap",
           "type": "paper",
-          "author": "BrassCoders synthesis",
-          "year": 2026,
-          "url": "https://coppersun.dev/research/dependency-confusion/"
+          "title": "AI Hallucination × Dependency Confusion Overlap",
+          "source": "Synthesized from: USENIX Security 2025 (package hallucination rates) and Birsan 2021 (dependency confusion mechanics)",
+          "url": "/research/slopsquatting/"
         }
       ]
     }
