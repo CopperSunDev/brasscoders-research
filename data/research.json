@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "updated": "2026-06-20",
-  "total_sources": 45,
+  "updated": "2026-07-14",
+  "total_sources": 55,
   "product": {
     "name": "BrassCoders",
     "url": "https://coppersun.dev",
@@ -384,6 +384,92 @@
           "title": "AI Hallucination × Dependency Confusion Overlap",
           "source": "Synthesized from: USENIX Security 2025 (package hallucination rates) and Birsan 2021 (dependency confusion mechanics)",
           "url": "/research/slopsquatting/"
+        }
+      ]
+    },
+    {
+      "id": "weak-crypto",
+      "question": "Will My AI Use Weak Crypto?",
+      "url": "https://coppersun.dev/research/weak-crypto/",
+      "source_count": 5,
+      "sources": [
+        {
+          "slug": "pearce-2022",
+          "type": "paper",
+          "title": "Pearce et al. 2022 — Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions",
+          "source": "IEEE Symposium on Security and Privacy, 2022",
+          "url": "https://arxiv.org/abs/2108.09293"
+        },
+        {
+          "slug": "perry-2023",
+          "type": "paper",
+          "title": "Perry et al. 2023 — Do Users Write More Insecure Code with AI Assistants?",
+          "source": "ACM CCS 2023 (Perry, Srivastava, Kumar, Boneh)",
+          "url": "https://arxiv.org/abs/2211.03622"
+        },
+        {
+          "slug": "copilot-repo-2025",
+          "type": "paper",
+          "title": "Fu et al. 2025 — Security Weaknesses of Copilot-Generated Code in GitHub Projects",
+          "source": "ACM TOSEM 2025 (Fu, Liang, Tahir, Li, Shahin, Yu, Chen)",
+          "url": "https://arxiv.org/abs/2310.02059"
+        },
+        {
+          "slug": "formai-2023",
+          "type": "benchmark",
+          "title": "Tihanyi et al. 2023 — The FormAI Dataset: Generative AI in Software Security Through the Lens of Formal Verification",
+          "source": "PROMISE / arXiv, 2023",
+          "url": "https://arxiv.org/abs/2307.02192"
+        },
+        {
+          "slug": "bandit-crypto",
+          "type": "tool",
+          "title": "Bandit — Cryptography and Randomness Rules (B303, B304/B305, B324, B311)",
+          "source": "PyCQA · Python · widely-used",
+          "url": "https://bandit.readthedocs.io/en/latest/plugins/index.html"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "question": "Can My AI Coding Agent Be Hijacked?",
+      "url": "https://coppersun.dev/research/prompt-injection/",
+      "source_count": 5,
+      "sources": [
+        {
+          "slug": "your-ai-my-shell",
+          "type": "paper",
+          "title": "Liu et al. 2025 — \"Your AI, My Shell\": Demystifying Prompt Injection Attacks on Agentic AI Coding Editors",
+          "source": "arXiv, 2025 (Liu, Zhao, Lyu, Zhang, Wang, Lo)",
+          "url": "https://arxiv.org/abs/2509.22040"
+        },
+        {
+          "slug": "owasp-llm01",
+          "type": "paper",
+          "title": "OWASP — LLM01:2025 Prompt Injection",
+          "source": "OWASP Top 10 for LLM Applications, 2025",
+          "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+        },
+        {
+          "slug": "lethal-trifecta",
+          "type": "report",
+          "title": "Willison 2025 — The Lethal Trifecta",
+          "source": "Simon Willison, June 2025",
+          "url": "https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/"
+        },
+        {
+          "slug": "csa-cicd-2026",
+          "type": "report",
+          "title": "Cloud Security Alliance 2026 — AI Agent Prompt Injection: The New CI/CD Supply Chain Threat",
+          "source": "Cloud Security Alliance AI Safety Initiative, June 2026",
+          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-claude-code-github-action-prompt-injection/"
+        },
+        {
+          "slug": "claude-code-security",
+          "type": "tool",
+          "title": "Claude Code — Security Model & Prompt-Injection Safeguards",
+          "source": "Anthropic · official documentation",
+          "url": "https://code.claude.com/docs/en/security"
         }
       ]
     }

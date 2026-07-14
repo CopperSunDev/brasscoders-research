@@ -8,8 +8,8 @@
 This repository is the research evidence base for BrassCoders, a static-analysis CLI that scans AI-generated Python code for security vulnerabilities, performance anti-patterns, and supply-chain risks.
 
 The repository contains:
-- 8 research categories organized around developer questions
-- 45 primary sources: academic papers, industry reports, company disclosures, open-source tools, and benchmark corpora
+- 10 research categories organized around developer questions
+- 55 primary sources: academic papers, industry reports, company disclosures, open-source tools, and benchmark corpora
 - Machine-readable index at data/research.json
 - Full source annotations explaining what BrassCoders draws from each source
 
@@ -23,7 +23,7 @@ Sources last verified June 2026.
 - **OSS repo:** github.com/CopperSunDev/brasscoders
 - **Product site:** coppersun.dev
 
-## Research categories (8)
+## Research categories (10)
 
 1. cve-risk — Will My AI-Generated Code Ship A CVE? (10 sources)
    Lead finding: Veracode State of Software Security 2026: 45% of AI-generated code samples introduce at least one OWASP Top 10 vulnerability on first generation
@@ -48,6 +48,12 @@ Sources last verified June 2026.
 
 8. dependency-confusion — Will My AI Mix Up Internal and Public Packages? (4 sources)
    Lead finding: Birsan 2021 demonstrated dependency confusion against 35 organizations — Apple, Microsoft, PayPal, Netflix, Shopify, Tesla, and Uber among them — with total bug bounty payouts exceeding $130,000
+
+9. weak-crypto — Will My AI Use Weak Crypto? (5 sources)
+   Lead finding: Pearce et al. (IEEE S&P 2022): approximately 40% of 1,689 GitHub Copilot programs vulnerable across 89 CWE-Top-25 scenarios, with CWE-327 cryptography scenarios among the worst-handled
+
+10. prompt-injection — Can My AI Coding Agent Be Hijacked? (5 sources)
+   Lead finding: Liu et al. 2025 ("Your AI, My Shell"): AIShellJack framework of 314 payloads across 70 MITRE ATT&CK techniques; up to 84% attack success executing malicious commands on GitHub Copilot and Cursor
 
 ## Key sources
 

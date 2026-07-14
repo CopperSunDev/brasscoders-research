@@ -18,7 +18,7 @@ The index is organized around the questions developers actually ask when evaluat
 
 ---
 
-## Eight Categories
+## Ten Categories
 
 | # | Question | Sources | Live page |
 |---|---|---|---|
@@ -30,8 +30,10 @@ The index is organized around the questions developers actually ask when evaluat
 | 6 | [Will My AI Write Slow Code?](categories/performance-anti-patterns.md) | 7 | [/research/performance-anti-patterns/](https://coppersun.dev/research/performance-anti-patterns/) |
 | 7 | [Will My AI-Generated Code Leak My Credentials?](categories/secret-leakage.md) | 4 | [/research/secret-leakage/](https://coppersun.dev/research/secret-leakage/) |
 | 8 | [Will My AI Mix Up Internal and Public Packages?](categories/dependency-confusion.md) | 4 | [/research/dependency-confusion/](https://coppersun.dev/research/dependency-confusion/) |
+| 9 | [Will My AI Use Weak Crypto?](categories/weak-crypto.md) | 5 | [/research/weak-crypto/](https://coppersun.dev/research/weak-crypto/) |
+| 10 | [Can My AI Coding Agent Be Hijacked?](categories/prompt-injection.md) | 5 | [/research/prompt-injection/](https://coppersun.dev/research/prompt-injection/) |
 
-Total: **45 sources** across 8 categories.
+Total: **55 sources** across 10 categories.
 
 ---
 
