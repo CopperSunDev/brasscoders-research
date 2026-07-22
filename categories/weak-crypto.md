@@ -6,7 +6,7 @@ BrassCoders treats weak cryptography as one of the highest-confidence AI-code fa
 
 [← Back to the index](../README.md) · [Live version](https://coppersun.dev/research/weak-crypto/)
 
-Sources last verified June 2026.
+Sources last verified July 2026.
 
 ## Sources (5)
 

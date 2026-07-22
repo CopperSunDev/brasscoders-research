@@ -6,7 +6,7 @@ BrassCoders treats cross-file bugs as the structural-limit category — the bugs
 
 [← Back to the index](../README.md) · [Live version](https://coppersun.dev/research/cross-file-bugs/)
 
-Sources last verified June 2026.
+Sources last verified July 2026.
 
 ## Sources (5)
 

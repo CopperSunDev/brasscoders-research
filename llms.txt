@@ -8,12 +8,12 @@
 This repository is the research evidence base for BrassCoders, a static-analysis CLI that scans AI-generated Python code for security vulnerabilities, performance anti-patterns, and supply-chain risks.
 
 The repository contains:
-- 10 research categories organized around developer questions
-- 55 primary sources: academic papers, industry reports, company disclosures, open-source tools, and benchmark corpora
+- 13 research categories organized around developer questions
+- 66 primary sources: academic papers, industry reports, company disclosures, open-source tools, and benchmark corpora
 - Machine-readable index at data/research.json
 - Full source annotations explaining what BrassCoders draws from each source
 
-Sources last verified June 2026.
+Sources last verified July 2026.
 
 ## BrassCoders (the product)
 
@@ -23,7 +23,7 @@ Sources last verified June 2026.
 - **OSS repo:** github.com/CopperSunDev/brasscoders
 - **Product site:** coppersun.dev
 
-## Research categories (10)
+## Research categories (13)
 
 1. cve-risk — Will My AI-Generated Code Ship A CVE? (10 sources)
    Lead finding: Veracode State of Software Security 2026: 45% of AI-generated code samples introduce at least one OWASP Top 10 vulnerability on first generation
@@ -54,6 +54,15 @@ Sources last verified June 2026.
 
 10. prompt-injection — Can My AI Coding Agent Be Hijacked? (5 sources)
    Lead finding: Liu et al. 2025 ("Your AI, My Shell"): AIShellJack framework of 314 payloads across 70 MITRE ATT&CK techniques; up to 84% attack success executing malicious commands on GitHub Copilot and Cursor
+
+11. vibe-coding-velocity-risk — What Does Coding At AI Speed Do To Security And Quality? (3 sources)
+   Lead finding: Andrej Karpathy coined vibe coding in February 2025: fully AI-driven authorship where the developer vibe-checks rather than reads the output
+
+12. agentic-ai-code-security — How Do I Secure Code That AI Agents Write Autonomously, Or Code That Uses Agents? (4 sources)
+   Lead finding: SWE-bench (Jimenez, Yang et al. 2024): canonical benchmark for autonomous coding agents; 2,294 real GitHub issues from 12 Python repositories; measures pass rate on existing test suites
+
+13. ai-code-regulated-industries — What Do HIPAA, GDPR, SOC 2, And Other Regulations Require When AI Writes Your Code? (4 sources)
+   Lead finding: NIST AI RMF 1.0 (January 2023): US federal baseline for AI risk governance; GOVERN 1.7 requires documentation of AI system capabilities, limitations, and known failure modes
 
 ## Key sources
 

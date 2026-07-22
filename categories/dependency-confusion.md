@@ -6,7 +6,7 @@ BrassCoders treats dependency confusion as the supply-chain attack vector with t
 
 [← Back to the index](../README.md) · [Live version](https://coppersun.dev/research/dependency-confusion/)
 
-Sources last verified June 2026.
+Sources last verified July 2026.
 
 ## Sources (4)
 

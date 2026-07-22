@@ -4,7 +4,7 @@
 
 Live version: [coppersun.dev/research/](https://coppersun.dev/research/)
 
-Sources last verified June 2026.
+Sources last verified July 2026.
 
 ---
 
@@ -18,7 +18,7 @@ The index is organized around the questions developers actually ask when evaluat
 
 ---
 
-## Ten Categories
+## 13 Categories
 
 | # | Question | Sources | Live page |
 |---|---|---|---|
@@ -32,8 +32,11 @@ The index is organized around the questions developers actually ask when evaluat
 | 8 | [Will My AI Mix Up Internal and Public Packages?](categories/dependency-confusion.md) | 4 | [/research/dependency-confusion/](https://coppersun.dev/research/dependency-confusion/) |
 | 9 | [Will My AI Use Weak Crypto?](categories/weak-crypto.md) | 5 | [/research/weak-crypto/](https://coppersun.dev/research/weak-crypto/) |
 | 10 | [Can My AI Coding Agent Be Hijacked?](categories/prompt-injection.md) | 5 | [/research/prompt-injection/](https://coppersun.dev/research/prompt-injection/) |
+| 11 | [What Does Coding At AI Speed Do To Security And Quality?](categories/vibe-coding-velocity-risk.md) | 3 | [/research/vibe-coding-velocity-risk/](https://coppersun.dev/research/vibe-coding-velocity-risk/) |
+| 12 | [How Do I Secure Code That AI Agents Write Autonomously, Or Code That Uses Agents?](categories/agentic-ai-code-security.md) | 4 | [/research/agentic-ai-code-security/](https://coppersun.dev/research/agentic-ai-code-security/) |
+| 13 | [What Do HIPAA, GDPR, SOC 2, And Other Regulations Require When AI Writes Your Code?](categories/ai-code-regulated-industries.md) | 4 | [/research/ai-code-regulated-industries/](https://coppersun.dev/research/ai-code-regulated-industries/) |
 
-Total: **55 sources** across 10 categories.
+Total: **66 sources** across 13 categories.
 
 ---
 

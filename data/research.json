@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "updated": "2026-07-14",
-  "total_sources": 55,
+  "updated": "2026-07-22",
+  "total_sources": 66,
   "product": {
     "name": "BrassCoders",
     "url": "https://coppersun.dev",
@@ -470,6 +470,107 @@
           "title": "Claude Code — Security Model & Prompt-Injection Safeguards",
           "source": "Anthropic · official documentation",
           "url": "https://code.claude.com/docs/en/security"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding-velocity-risk",
+      "question": "What Does Coding At AI Speed Do To Security And Quality?",
+      "url": "https://coppersun.dev/research/vibe-coding-velocity-risk/",
+      "source_count": 3,
+      "sources": [
+        {
+          "slug": "karpathy-vibe-coding",
+          "type": "report",
+          "title": "Karpathy 2025 — Vibe Coding",
+          "source": "Andrej Karpathy, X/Twitter, February 2, 2025",
+          "url": "https://x.com/karpathy/status/1886192184808149186"
+        },
+        {
+          "slug": "perry-ccs-2023-vibe",
+          "type": "paper",
+          "title": "Perry et al. 2023 — Do Users Write More Insecure Code With AI Assistants?",
+          "source": "Neil Perry, Megha Srivastava, Deepak Kumar, Dan Boneh — ACM CCS 2023",
+          "url": "https://dl.acm.org/doi/10.1145/3576915.3623157"
+        },
+        {
+          "slug": "willison-ai-coding-concerns",
+          "type": "report",
+          "title": "Willison 2024 — Things I Worry About With AI-Assisted Coding",
+          "source": "Simon Willison, simonwillison.net, 2024",
+          "url": "https://simonwillison.net/2024/Dec/21/things-i-worry-about-with-ai-assisted-coding/"
+        }
+      ]
+    },
+    {
+      "id": "agentic-ai-code-security",
+      "question": "How Do I Secure Code That AI Agents Write Autonomously, Or Code That Uses Agents?",
+      "url": "https://coppersun.dev/research/agentic-ai-code-security/",
+      "source_count": 4,
+      "sources": [
+        {
+          "slug": "swe-bench",
+          "type": "benchmark",
+          "title": "SWE-bench — Evaluating Language Models on Real-World Software Engineering",
+          "source": "Carlos E. Jimenez, John Yang, et al. — arXiv:2310.06770, Princeton & Stanford 2024",
+          "url": "https://arxiv.org/abs/2310.06770"
+        },
+        {
+          "slug": "swe-agent",
+          "type": "tool",
+          "title": "SWE-agent — Agent-Computer Interfaces Enable Automated Software Engineering",
+          "source": "John Yang, et al. — arXiv:2405.15793, Princeton 2024",
+          "url": "https://arxiv.org/abs/2405.15793"
+        },
+        {
+          "slug": "openHands",
+          "type": "tool",
+          "title": "OpenHands (OpenDevin) — An Open Platform for AI Software Developers as Generalist Agents",
+          "source": "Xingyao Wang, et al. — ICLR 2025",
+          "url": "https://arxiv.org/abs/2407.16741"
+        },
+        {
+          "slug": "owasp-agentic-ai",
+          "type": "report",
+          "title": "OWASP — Agentic AI Threats and Mitigations",
+          "source": "OWASP AI Security Project, 2025",
+          "url": "https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/"
+        }
+      ]
+    },
+    {
+      "id": "ai-code-regulated-industries",
+      "question": "What Do HIPAA, GDPR, SOC 2, And Other Regulations Require When AI Writes Your Code?",
+      "url": "https://coppersun.dev/research/ai-code-regulated-industries/",
+      "source_count": 4,
+      "sources": [
+        {
+          "slug": "nist-ai-rmf",
+          "type": "report",
+          "title": "NIST AI Risk Management Framework (AI RMF 1.0)",
+          "source": "National Institute of Standards and Technology, January 2023",
+          "url": "https://airc.nist.gov/RMF/1"
+        },
+        {
+          "slug": "cisa-secure-ai",
+          "type": "report",
+          "title": "CISA — Guidelines for Secure AI System Development",
+          "source": "CISA, NCSC, and Five Eyes Partners, November 2023",
+          "url": "https://www.cisa.gov/sites/default/files/2023-11/Guidelines-for-Secure-AI-System-Development.pdf"
+        },
+        {
+          "slug": "gdpr-article-25",
+          "type": "report",
+          "title": "GDPR Article 25 — Data Protection by Design and by Default",
+          "source": "European Parliament, General Data Protection Regulation, 2018",
+          "url": "https://gdpr-info.eu/art-25-gdpr/"
+        },
+        {
+          "slug": "cisa-ssdf",
+          "type": "report",
+          "title": "CISA — Secure Software Development Framework (SSDF) v1.1",
+          "source": "NIST SP 800-218, February 2022",
+          "url": "https://csrc.nist.gov/publications/detail/sp/800-218/final"
         }
       ]
     }
