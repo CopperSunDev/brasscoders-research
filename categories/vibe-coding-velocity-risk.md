@@ -6,7 +6,7 @@ BrassCoders traces vibe coding directly to Andrej Karpathy's February 2025 post:
 
 [← Back to the index](../README.md) · [Live version](https://coppersun.dev/research/vibe-coding-velocity-risk/)
 
-Sources last verified July 2026.
+Sources last verified August 2026.
 
 ## Sources (3)
 

@@ -6,7 +6,7 @@ BrassCoders treats this category as the strategic-context layer. Builders defend
 
 [← Back to the index](../README.md) · [Live version](https://coppersun.dev/research/market-intelligence/)
 
-Sources last verified July 2026.
+Sources last verified August 2026.
 
 ## Sources (5)
 

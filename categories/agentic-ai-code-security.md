@@ -6,7 +6,7 @@ BrassCoders treats code from autonomous AI coding agents the same as code from h
 
 [← Back to the index](../README.md) · [Live version](https://coppersun.dev/research/agentic-ai-code-security/)
 
-Sources last verified July 2026.
+Sources last verified August 2026.
 
 ## Sources (4)
 

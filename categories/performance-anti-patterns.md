@@ -6,7 +6,7 @@ BrassCoders treats AI-coder performance anti-patterns as the wedge no security l
 
 [← Back to the index](../README.md) · [Live version](https://coppersun.dev/research/performance-anti-patterns/)
 
-Sources last verified July 2026.
+Sources last verified August 2026.
 
 ## Sources (7)
 

@@ -4,7 +4,7 @@
 
 Live version: [coppersun.dev/research/](https://coppersun.dev/research/)
 
-Sources last verified July 2026.
+Sources last verified August 2026.
 
 ---
 
@@ -22,7 +22,7 @@ The index is organized around the questions developers actually ask when evaluat
 
 | # | Question | Sources | Live page |
 |---|---|---|---|
-| 1 | [Will My AI-Generated Code Ship A CVE?](categories/cve-risk.md) | 10 | [/research/cve-risk/](https://coppersun.dev/research/cve-risk/) |
+| 1 | [Will My AI-Generated Code Ship A CVE?](categories/cve-risk.md) | 12 | [/research/cve-risk/](https://coppersun.dev/research/cve-risk/) |
 | 2 | [Will My AI Hallucinate An Import?](categories/slopsquatting.md) | 5 | [/research/slopsquatting/](https://coppersun.dev/research/slopsquatting/) |
 | 3 | [Why Does My AI Miss Cross-File Bugs?](categories/cross-file-bugs.md) | 5 | [/research/cross-file-bugs/](https://coppersun.dev/research/cross-file-bugs/) |
 | 4 | [How Reliable Is My AI Assistant's Review?](categories/llm-review-reliability.md) | 5 | [/research/llm-review-reliability/](https://coppersun.dev/research/llm-review-reliability/) |
@@ -36,7 +36,7 @@ The index is organized around the questions developers actually ask when evaluat
 | 12 | [How Do I Secure Code That AI Agents Write Autonomously, Or Code That Uses Agents?](categories/agentic-ai-code-security.md) | 4 | [/research/agentic-ai-code-security/](https://coppersun.dev/research/agentic-ai-code-security/) |
 | 13 | [What Do HIPAA, GDPR, SOC 2, And Other Regulations Require When AI Writes Your Code?](categories/ai-code-regulated-industries.md) | 4 | [/research/ai-code-regulated-industries/](https://coppersun.dev/research/ai-code-regulated-industries/) |
 
-Total: **66 sources** across 13 categories.
+Total: **68 sources** across 13 categories.
 
 ---
 

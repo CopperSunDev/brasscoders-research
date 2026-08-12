@@ -6,7 +6,7 @@ BrassCoders treats AI-generated code in regulated industries as a documentation 
 
 [← Back to the index](../README.md) · [Live version](https://coppersun.dev/research/ai-code-regulated-industries/)
 
-Sources last verified July 2026.
+Sources last verified August 2026.
 
 ## Sources (4)
 

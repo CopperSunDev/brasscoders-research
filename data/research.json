@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "updated": "2026-07-22",
-  "total_sources": 66,
+  "updated": "2026-08-12",
+  "total_sources": 68,
   "product": {
     "name": "BrassCoders",
     "url": "https://coppersun.dev",
@@ -12,7 +12,7 @@
       "id": "cve-risk",
       "question": "Will My AI-Generated Code Ship A CVE?",
       "url": "https://coppersun.dev/research/cve-risk/",
-      "source_count": 10,
+      "source_count": 12,
       "sources": [
         {
           "slug": "veracode-soss-2026",
@@ -27,6 +27,20 @@
           "title": "Cloud Security Alliance — AI-Generated Code Vulnerability Surge 2026",
           "source": "Cloud Security Alliance Labs, 2026",
           "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-generated-code-vulnerability-surge-2026/"
+        },
+        {
+          "slug": "veracode-genai-2025",
+          "type": "report",
+          "title": "Veracode — GenAI Code Security Report 2025",
+          "source": "Veracode, July 2025",
+          "url": "https://www.veracode.com/resources/analyst-reports/2025-genai-code-security-report/"
+        },
+        {
+          "slug": "checkmarx-appsec-2025",
+          "type": "report",
+          "title": "Checkmarx — Future of Application Security 2025",
+          "source": "Checkmarx, August 2025",
+          "url": "https://checkmarx.com/resources/reports/2025-future-of-application-security/"
         },
         {
           "slug": "acm-tosem-2026",
