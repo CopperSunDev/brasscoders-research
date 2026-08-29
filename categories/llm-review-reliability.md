@@ -8,7 +8,7 @@ BrassCoders treats this category as the reality check builders need before decid
 
 Sources last verified August 2026.
 
-## Sources (5)
+## Sources (8)
 
 ---
 
@@ -59,6 +59,36 @@ BrassCoders treats Octoverse as the canonical primary-source measurement of plat
 
 - **What it's good for:** platform-level adoption data, complement to Stack Overflow's practitioner-side data.
 - **Where BrassCoders draws from it:** reference for sizing the AI-augmented codebase population.
+
+---
+
+### 📄 LLMs vs. Static Analysis for Vulnerability Detection
+*Gnieciak & Szandała, arXiv 2508.04448, 2025* · [arxiv.org/abs/2508.04448](https://arxiv.org/abs/2508.04448)
+
+BrassCoders treats this as the peer-reviewed reason an LLM reviewer is a poor final gate. The study finds LLMs mislocate vulnerability findings at line and column granularity, and its authors recommend reserving deterministic rule-based scanners for high-assurance verification. Builders deciding whether an AI review can be the last check before merge should cite this before treating LLM output as precise or reproducible.
+
+- **What it's good for:** where LLM review and static analysis diverge on precision and finding location.
+- **Where BrassCoders draws from it:** the core argument of the [LLM Code Reviewer Reliability post](https://coppersun.dev/blog/llm-code-reviewer-reliability-data/).
+
+---
+
+### 📄 ZeroFalse — Hybrid Static Analysis + LLM Adjudication
+*Iranmanesh et al., arXiv 2510.02534, 2025* · [arxiv.org/abs/2510.02534](https://arxiv.org/abs/2510.02534)
+
+BrassCoders treats this as the research backing for the deterministic-then-LLM pattern. ZeroFalse runs a deterministic static analyzer first, then has an LLM adjudicate each finding, reaching F1 0.912 on the OWASP Java Benchmark with precision and recall above 90% — a hybrid that beats either layer alone. Builders wiring an AI assistant to fix scanner findings should structure it this way: deterministic detection, then LLM judgment, then a deterministic re-scan to verify.
+
+- **What it's good for:** the detection-first, LLM-judgment-second hybrid and its measured F1 gains.
+- **Where BrassCoders draws from it:** the verify-the-fix thesis of the [Scan, Patch, Re-Scan post](https://coppersun.dev/blog/scan-patch-verify-ai-bugs/).
+
+---
+
+### 📄 Measuring Determinism in LLMs for Code Review
+*Klishevich et al., arXiv 2502.20747, 2025* · [arxiv.org/abs/2502.20747](https://arxiv.org/abs/2502.20747)
+
+BrassCoders treats this as the direct measurement of why an LLM reviewer can't be the audit gate: the study ran four major models at temperature zero and still found their code-review verdicts varied run to run — the same diff read differently on repeat. Builders who need a check that returns the same answer on the same input every time should read this as the reason the deterministic layer sits underneath the LLM, not the other way around.
+
+- **What it's good for:** the run-to-run non-determinism of LLM code-review verdicts, even at temperature zero.
+- **Where BrassCoders draws from it:** the determinism argument in the [LLM Code Reviewer Reliability post](https://coppersun.dev/blog/llm-code-reviewer-reliability-data/).
 
 ## FAQ
 

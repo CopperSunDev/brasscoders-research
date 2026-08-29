@@ -8,7 +8,7 @@ BrassCoders treats slopsquatting — registering a package name that AI assistan
 
 Sources last verified August 2026.
 
-## Sources (5)
+## Sources (6)
 
 ---
 
@@ -18,7 +18,17 @@ Sources last verified August 2026.
 BrassCoders treats this as the canonical evidence for AI-package hallucination rates. The 19.7% non-existence rate across major models is the headline number; the paper also documents the persistence of specific hallucinated names across repeated generations (which is what makes squatting profitable). Builders running AI-generated pip install or npm install commands without verification are exposed at this rate.
 
 - **What it's good for:** sizing the hallucinated-import attack surface.
-- **Where BrassCoders draws from it:** Blind Spot 3 in the [pillar](https://coppersun.dev/ai-blind-spots/); the lead claim in the [When AI Invents Libraries](https://coppersun.dev/blog/when-ai-invents-libraries/) post.
+- **Where BrassCoders draws from it:** Blind Spot 3 in the [pillar](https://coppersun.dev/ai-blind-spots/); the lead claim in the [When AI Invents Libraries](https://coppersun.dev/blog/when-ai-invents-libraries/) post; BrassCoders's own [96-package first-party probe](https://coppersun.dev/blog/ai-package-hallucination-data/) measures the low-end rate against the live PyPI API.
+
+---
+
+### 📄 Re-Evaluating Package Hallucinations on 2026 Frontier Models
+*Churilov, arXiv 2605.17062, 2026* · [arxiv.org/abs/2605.17062](https://arxiv.org/abs/2605.17062)
+
+BrassCoders treats this as the 2026 update to the package-hallucination threat: an independent replication on the current frontier-model cohort still measures hallucination rates of 4.62%–6.10% (Claude Haiku 4.5 through GPT-5.4-mini), so the slopsquatting attack surface did not close as the models got better. Builders who assumed newer models stopped inventing package names should read this as the reason an import-resolution check stays on the deterministic gate.
+
+- **What it's good for:** whether frontier-model gains closed the package-hallucination gap — they didn't.
+- **Where BrassCoders draws from it:** the fresh-data spine of BrassCoders's [96-package hallucination probe](https://coppersun.dev/blog/ai-package-hallucination-data/).
 
 ---
 

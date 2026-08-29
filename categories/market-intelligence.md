@@ -8,7 +8,7 @@ BrassCoders treats this category as the strategic-context layer. Builders defend
 
 Sources last verified August 2026.
 
-## Sources (5)
+## Sources (6)
 
 ---
 
@@ -59,6 +59,16 @@ BrassCoders cross-lists the Pragmatic Engineer's AI adoption series here because
 
 - **What it's good for:** ongoing practitioner-side market intelligence.
 - **Where BrassCoders draws from it:** background context across messaging and pillar writing.
+
+---
+
+### 📄 METR — Randomized Trial of AI Tools on Developer Productivity
+*METR, arXiv 2507.09089, 2025* · [arxiv.org/abs/2507.09089](https://arxiv.org/abs/2507.09089)
+
+BrassCoders treats this as the sharpest evidence that AI-assisted speed is partly a perception. In METR's randomized controlled trial, experienced open-source developers were 19% slower with AI tools while believing they were 20% faster. Builders sizing the real cost of AI-assisted development should pair this productivity gap with the defect-rate data — the tax is unreviewed code, which a deterministic scanner is cheap enough to catch on every change.
+
+- **What it's good for:** the measured gap between perceived and actual AI-assisted productivity.
+- **Where BrassCoders draws from it:** the counter-narrative in the [speed perception-gap post](https://coppersun.dev/blog/ai-coding-speed-perception-gap/).
 
 ## FAQ
 

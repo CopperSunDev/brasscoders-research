@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "updated": "2026-08-12",
-  "total_sources": 68,
+  "updated": "2026-08-29",
+  "total_sources": 73,
   "product": {
     "name": "BrassCoders",
     "url": "https://coppersun.dev",
@@ -104,7 +104,7 @@
       "id": "slopsquatting",
       "question": "Will My AI Hallucinate An Import?",
       "url": "https://coppersun.dev/research/slopsquatting/",
-      "source_count": 5,
+      "source_count": 6,
       "sources": [
         {
           "slug": "usenix-2025",
@@ -112,6 +112,13 @@
           "title": "USENIX Security 2025 — Package Hallucination at Scale",
           "source": "USENIX Security Symposium, 2025",
           "url": "https://www.usenix.org/conference/usenixsecurity25"
+        },
+        {
+          "slug": "arxiv-2605-17062",
+          "type": "paper",
+          "title": "Re-Evaluating Package Hallucinations on 2026 Frontier Models",
+          "source": "Churilov, arXiv 2605.17062, 2026",
+          "url": "https://arxiv.org/abs/2605.17062"
         },
         {
           "slug": "lasso-poc",
@@ -190,7 +197,7 @@
       "id": "llm-review-reliability",
       "question": "How Reliable Is My AI Assistant's Review?",
       "url": "https://coppersun.dev/research/llm-review-reliability/",
-      "source_count": 5,
+      "source_count": 8,
       "sources": [
         {
           "slug": "acm-tosem-2026",
@@ -226,6 +233,27 @@
           "title": "GitHub Octoverse 2024",
           "source": "GitHub, 2024",
           "url": "https://octoverse.github.com/"
+        },
+        {
+          "slug": "arxiv-2508-04448",
+          "type": "paper",
+          "title": "LLMs vs. Static Analysis for Vulnerability Detection",
+          "source": "Gnieciak & Szandała, arXiv 2508.04448, 2025",
+          "url": "https://arxiv.org/abs/2508.04448"
+        },
+        {
+          "slug": "arxiv-2510-02534-zerofalse",
+          "type": "paper",
+          "title": "ZeroFalse — Hybrid Static Analysis + LLM Adjudication",
+          "source": "Iranmanesh et al., arXiv 2510.02534, 2025",
+          "url": "https://arxiv.org/abs/2510.02534"
+        },
+        {
+          "slug": "arxiv-2502-20747",
+          "type": "paper",
+          "title": "Measuring Determinism in LLMs for Code Review",
+          "source": "Klishevich et al., arXiv 2502.20747, 2025",
+          "url": "https://arxiv.org/abs/2502.20747"
         }
       ]
     },
@@ -233,7 +261,7 @@
       "id": "market-intelligence",
       "question": "What Does The AI-Coding Market Look Like In 2026?",
       "url": "https://coppersun.dev/research/market-intelligence/",
-      "source_count": 5,
+      "source_count": 6,
       "sources": [
         {
           "slug": "gartner-2028",
@@ -269,6 +297,13 @@
           "title": "The Pragmatic Engineer — AI Adoption Series 2024-2026",
           "source": "The Pragmatic Engineer, ongoing",
           "url": "https://newsletter.pragmaticengineer.com/"
+        },
+        {
+          "slug": "metr-2025-rct",
+          "type": "paper",
+          "title": "METR — Randomized Trial of AI Tools on Developer Productivity",
+          "source": "METR, arXiv 2507.09089, 2025",
+          "url": "https://arxiv.org/abs/2507.09089"
         }
       ]
     },
