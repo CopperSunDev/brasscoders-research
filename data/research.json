@@ -545,7 +545,7 @@
         {
           "slug": "willison-ai-coding-concerns",
           "type": "report",
-          "title": "Willison 2024 — Things I Worry About With AI-Assisted Coding",
+          "title": "Willison 2024 — Notes on Using LLMs for Code",
           "source": "Simon Willison, simonwillison.net, 2024",
           "url": "https://simonwillison.net/2024/Sep/20/using-llms-for-code/"
         }

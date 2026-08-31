@@ -32,12 +32,12 @@ BrassCoders treats this CCS study as the control-group evidence for the vibe-cod
 
 ---
 
-### 📊 Willison 2024 — Things I Worry About With AI-Assisted Coding
+### 📊 Willison 2024 — Notes on Using LLMs for Code
 *Simon Willison, simonwillison.net, 2024* · [simonwillison.net](https://simonwillison.net/2024/Sep/20/using-llms-for-code/)
 
-BrassCoders cites Willison's documented worries about AI-assisted coding — specifically the security review gap when developers trust AI output without reading it — as the practitioner framing of what the Perry et al. data shows empirically. Willison is explicit: the tool produces plausible-looking code; the developer who does not read it carefully will not catch the security issue; the issue ships. BrassCoders's pre-commit hook is one structural response to this gap.
+BrassCoders cites Willison's practitioner framing of coding with LLMs — he likens the model to an "overconfident intern" that makes mistakes it doesn't realize it's making, so plausible-looking output still needs a careful human read before it ships. BrassCoders reads that review gap as where security issues slip through — the qualitative complement to what Perry et al. measured empirically. The pre-commit hook is one structural response.
 
-- **What it's good for:** the practitioner-level security review gap in AI-assisted development.
+- **What it's good for:** the practitioner-level review gap in AI-assisted development.
 - **Where BrassCoders draws from it:** the framing BrassCoders uses in product copy and the AI Blind Spots pillar to explain why the deterministic scanning layer sits underneath the assistant.
 
 ## FAQ
@@ -56,7 +56,7 @@ The model optimizes for code that satisfies the prompt, not code that is safe on
 
 ### What is the security review gap in AI-assisted coding?
 
-Willison's framing: the AI produces plausible-looking code; the developer who does not read it carefully will not catch the security issue; the issue ships. The gap exists even in non-vibe-coding workflows, but vibe coding makes it structural — the point of vibe coding is to not read the code carefully. Perry et al.'s data shows developers using assistants were more likely to believe their code was secure, which is the overconfidence effect that makes the gap dangerous.
+The AI produces plausible-looking code, and the developer who doesn't read it carefully won't catch the security issue before it ships — Willison's "overconfident intern" that makes mistakes it doesn't realize it's making is the practitioner shorthand for it. The gap exists even in non-vibe-coding workflows, but vibe coding makes it structural — the point of vibe coding is to not read the code carefully. Perry et al.'s data shows developers using assistants were more likely to believe their code was secure, which is the overconfidence effect that makes the gap dangerous.
 
 ### How does BrassCoders fit into a vibe-coding workflow?
 
