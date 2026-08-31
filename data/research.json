@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-29",
+  "updated": "2026-08-31",
   "total_sources": 73,
   "product": {
     "name": "BrassCoders",
@@ -189,7 +189,7 @@
           "type": "paper",
           "title": "Meta 2019 — Pyre: Fast Type Checking and IDE Integration for Python",
           "source": "Meta Engineering Blog, 2019",
-          "url": "https://engineering.fb.com/2018/05/22/developer-tools/pyre-fast-type-checking-for-python/"
+          "url": "https://pyre-check.org/"
         }
       ]
     },
@@ -360,7 +360,7 @@
           "type": "benchmark",
           "title": "BrassCoders AI-Coder-Bugs Corpus",
           "source": "Copper Sun Brass · Apache 2.0 · reproducible",
-          "url": "https://github.com/CopperSunDev/brasscoders/tree/main/cli/docs/benchmarks/ai-coder-bugs"
+          "url": "https://github.com/CopperSunDev/brasscoders/tree/main/docs/benchmarks/ai-coder-bugs"
         }
       ]
     },
@@ -382,7 +382,7 @@
           "type": "disclosure",
           "title": "Samsung / ChatGPT Credential Disclosure (2023)",
           "source": "Samsung Electronics, reported March 2023",
-          "url": "https://techcrunch.com/2023/05/02/samsung-bans-chatgpt-and-other-ai-tools-amid-employee-leaks/"
+          "url": "https://www.forbes.com/sites/siladityaray/2023/05/02/samsung-bans-chatgpt-and-other-chatbots-for-employees-after-sensitive-code-leak/"
         },
         {
           "slug": "carlini-memorization",
@@ -547,7 +547,7 @@
           "type": "report",
           "title": "Willison 2024 — Things I Worry About With AI-Assisted Coding",
           "source": "Simon Willison, simonwillison.net, 2024",
-          "url": "https://simonwillison.net/2024/Dec/21/things-i-worry-about-with-ai-assisted-coding/"
+          "url": "https://simonwillison.net/2024/Sep/20/using-llms-for-code/"
         }
       ]
     },
@@ -598,14 +598,14 @@
           "type": "report",
           "title": "NIST AI Risk Management Framework (AI RMF 1.0)",
           "source": "National Institute of Standards and Technology, January 2023",
-          "url": "https://airc.nist.gov/RMF/1"
+          "url": "https://www.nist.gov/itl/ai-risk-management-framework"
         },
         {
           "slug": "cisa-secure-ai",
           "type": "report",
           "title": "CISA — Guidelines for Secure AI System Development",
           "source": "CISA, NCSC, and Five Eyes Partners, November 2023",
-          "url": "https://www.cisa.gov/sites/default/files/2023-11/Guidelines-for-Secure-AI-System-Development.pdf"
+          "url": "https://www.cisa.gov/news-events/news/dhs-cisa-and-uk-ncsc-release-joint-guidelines-secure-ai-system-development"
         },
         {
           "slug": "gdpr-article-25",

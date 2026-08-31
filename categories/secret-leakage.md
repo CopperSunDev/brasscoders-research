@@ -23,7 +23,7 @@ BrassCoders treats GitGuardian's annual State of Secrets Sprawl report as the ca
 ---
 
 ### 🏢 Samsung / ChatGPT Credential Disclosure (2023)
-*Samsung Electronics, reported March 2023* · [TechCrunch coverage, May 2023](https://techcrunch.com/2023/05/02/samsung-bans-chatgpt-and-other-ai-tools-amid-employee-leaks/)
+*Samsung Electronics, reported March 2023* · [Forbes coverage, May 2023](https://www.forbes.com/sites/siladityaray/2023/05/02/samsung-bans-chatgpt-and-other-chatbots-for-employees-after-sensitive-code-leak/)
 
 BrassCoders treats the Samsung incident as the canonical real-world demonstration that AI assistant interfaces are a credential transmission vector, not just a code generation tool. In March 2023, Samsung engineers pasted proprietary source code, internal meeting notes, and a database schema into ChatGPT during code review. Samsung confirmed the incident and implemented an internal ban on AI assistant use for a period. The data sent to OpenAI's servers included what would qualify as trade secrets and internal configuration.
 

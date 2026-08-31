@@ -33,7 +33,7 @@ BrassCoders treats this CCS study as the control-group evidence for the vibe-cod
 ---
 
 ### 📊 Willison 2024 — Things I Worry About With AI-Assisted Coding
-*Simon Willison, simonwillison.net, 2024* · [simonwillison.net](https://simonwillison.net/2024/Dec/21/things-i-worry-about-with-ai-assisted-coding/)
+*Simon Willison, simonwillison.net, 2024* · [simonwillison.net](https://simonwillison.net/2024/Sep/20/using-llms-for-code/)
 
 BrassCoders cites Willison's documented worries about AI-assisted coding — specifically the security review gap when developers trust AI output without reading it — as the practitioner framing of what the Perry et al. data shows empirically. Willison is explicit: the tool produces plausible-looking code; the developer who does not read it carefully will not catch the security issue; the issue ships. BrassCoders's pre-commit hook is one structural response to this gap.
 

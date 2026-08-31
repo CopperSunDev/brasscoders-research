@@ -73,7 +73,7 @@ BrassCoders treats Scalene as the high-resolution profiler builders should reach
 ---
 
 ### 🧪 BrassCoders AI-Coder-Bugs Corpus
-*Copper Sun Brass · Apache 2.0 · reproducible* · [github.com/CopperSunDev/brasscoders](https://github.com/CopperSunDev/brasscoders/tree/main/cli/docs/benchmarks/ai-coder-bugs)
+*Copper Sun Brass · Apache 2.0 · reproducible* · [github.com/CopperSunDev/brasscoders](https://github.com/CopperSunDev/brasscoders/tree/main/docs/benchmarks/ai-coder-bugs)
 
 BrassCoders treats its own AI-coder-bugs corpus as the reproducible benchmark for this category. On twelve AI-generated Python files, BrassCoders caught all four planted performance anti-patterns while Bandit, Semgrep, and Pylint each caught none, and a frontier model matched the result only when explicitly asked to review. Builders who want to check the claim can run the committed corpus and runner themselves.
 

@@ -13,7 +13,7 @@ Sources last verified August 2026.
 ---
 
 ### 📊 NIST AI Risk Management Framework (AI RMF 1.0)
-*National Institute of Standards and Technology, January 2023* · [airc.nist.gov](https://airc.nist.gov/RMF/1)
+*National Institute of Standards and Technology, January 2023* · [nist.gov](https://www.nist.gov/itl/ai-risk-management-framework)
 
 BrassCoders treats the NIST AI RMF as the US federal baseline for responsible AI system governance. The Govern function (GOVERN 1.7) requires documentation of AI system capabilities, limitations, and known failure modes — the kind of record BrassCoders's timestamped YAML findings file produces for each scan. The Map function requires identifying AI risks; BrassCoders's finding categories (SQL injection, hardcoded credentials, unsafe deserialization) are the technical risk map for AI-generated code. The RMF does not prescribe which scanner to run; it prescribes that the risk be documented.
 
@@ -23,7 +23,7 @@ BrassCoders treats the NIST AI RMF as the US federal baseline for responsible AI
 ---
 
 ### 📊 CISA — Guidelines for Secure AI System Development
-*CISA, NCSC, and Five Eyes Partners, November 2023* · [cisa.gov](https://www.cisa.gov/sites/default/files/2023-11/Guidelines-for-Secure-AI-System-Development.pdf)
+*CISA, NCSC, and Five Eyes Partners, November 2023* · [cisa.gov](https://www.cisa.gov/news-events/news/dhs-cisa-and-uk-ncsc-release-joint-guidelines-secure-ai-system-development)
 
 BrassCoders treats CISA's Five Eyes joint guidance as the operational complement to NIST's framework. The document's Develop phase requirements — secure design, secure coding practices, and testing — translate directly to AI-assisted development: AI-generated code needs the same secure coding checks as human-written code, and the Develop section explicitly calls out the need for static analysis in the build pipeline. BrassCoders's CI integration (GitHub Actions and GitLab CI) is the technical implementation of this requirement.
 
