@@ -25,7 +25,7 @@ The index is organized around the questions developers actually ask when evaluat
 | 1 | [Will My AI-Generated Code Ship A CVE?](categories/cve-risk.md) | 12 | [/research/cve-risk/](https://coppersun.dev/research/cve-risk/) |
 | 2 | [Will My AI Hallucinate An Import?](categories/slopsquatting.md) | 6 | [/research/slopsquatting/](https://coppersun.dev/research/slopsquatting/) |
 | 3 | [Why Does My AI Miss Cross-File Bugs?](categories/cross-file-bugs.md) | 5 | [/research/cross-file-bugs/](https://coppersun.dev/research/cross-file-bugs/) |
-| 4 | [How Reliable Is My AI Assistant's Review?](categories/llm-review-reliability.md) | 8 | [/research/llm-review-reliability/](https://coppersun.dev/research/llm-review-reliability/) |
+| 4 | [How Reliable Is My AI Assistant's Review?](categories/llm-review-reliability.md) | 7 | [/research/llm-review-reliability/](https://coppersun.dev/research/llm-review-reliability/) |
 | 5 | [What Does The AI-Coding Market Look Like In 2026?](categories/market-intelligence.md) | 6 | [/research/market-intelligence/](https://coppersun.dev/research/market-intelligence/) |
 | 6 | [Will My AI Write Slow Code?](categories/performance-anti-patterns.md) | 7 | [/research/performance-anti-patterns/](https://coppersun.dev/research/performance-anti-patterns/) |
 | 7 | [Will My AI-Generated Code Leak My Credentials?](categories/secret-leakage.md) | 4 | [/research/secret-leakage/](https://coppersun.dev/research/secret-leakage/) |
@@ -36,7 +36,7 @@ The index is organized around the questions developers actually ask when evaluat
 | 12 | [How Do I Secure Code That AI Agents Write Autonomously, Or Code That Uses Agents?](categories/agentic-ai-code-security.md) | 4 | [/research/agentic-ai-code-security/](https://coppersun.dev/research/agentic-ai-code-security/) |
 | 13 | [What Do HIPAA, GDPR, SOC 2, And Other Regulations Require When AI Writes Your Code?](categories/ai-code-regulated-industries.md) | 4 | [/research/ai-code-regulated-industries/](https://coppersun.dev/research/ai-code-regulated-industries/) |
 
-Total: **73 sources** across 13 categories.
+Total: **72 sources** across 13 categories.
 
 ---
 

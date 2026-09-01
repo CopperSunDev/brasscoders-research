@@ -52,10 +52,10 @@ BrassCoders uses ast-grep for fast tree-sitter-based pattern queries across mult
 
 ---
 
-### 📄 Meta 2019 — Pyre: Fast Type Checking and IDE Integration for Python
-*Meta Engineering Blog, 2019* · [pyre-check.org](https://pyre-check.org/)
+### 📄 Pyre — Fast Type Checking and IDE Integration for Python
+*Meta / pyre-check.org, official docs* · [pyre-check.org](https://pyre-check.org/)
 
-BrassCoders treats this as the canonical primary-source explanation of the Pyre type-checker architecture (which Pysa builds on for taint analysis). Builders evaluating Pysa for production use should read the Pyre architecture writeup first; the taint engine inherits Pyre's type inference and call-graph construction. Useful for the "why is this fast" question.
+BrassCoders treats this as the canonical primary-source explanation of the Pyre type-checker architecture (which Pysa builds on for taint analysis). Builders evaluating Pysa for production use should read the Pyre architecture docs first; the taint engine inherits Pyre's type inference and call-graph construction. Useful for the "why is this fast" question.
 
 - **What it's good for:** understanding what Pysa is built on architecturally.
 - **Where BrassCoders draws from it:** background context for the Pysa-based detection layer.

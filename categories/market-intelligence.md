@@ -22,12 +22,12 @@ BrassCoders treats Gartner's projection — 75-90% of enterprise engineers using
 
 ---
 
-### 🏢 Microsoft FY26 Q2 Earnings — GitHub Copilot 4.7M Paid Subscribers
-*Microsoft Corporation, Jan 2026* · [sec.gov](https://www.sec.gov/Archives/edgar/data/0000789019/000095017025061032/msft-ex99_1.htm)
+### 🏢 Microsoft FY26 Q2 Earnings Call — GitHub Copilot 4.7M Paid Subscribers
+*Microsoft Corporation, FY26 Q2 earnings call, Jan 28, 2026* · [microsoft.com/investor (FY26 Q2)](https://www.microsoft.com/en-us/investor/earnings/fy-2026-q2/press-release-webcast)
 
-BrassCoders treats this as the canonical primary-source measurement of paid Copilot adoption. The SEC filing is the highest-credibility source — built on regulatory disclosure standards rather than vendor marketing. Builders citing Copilot adoption in any stakeholder context should use this number rather than secondary press coverage.
+BrassCoders treats this as the canonical measurement of paid Copilot adoption. The 4.7M paid-subscriber figure (up roughly 75% year over year) was disclosed verbally on Microsoft's FY26 Q2 earnings call, Jan 28, 2026 — it is NOT in the written SEC 8-K press release exhibit for that quarter, so cite the earnings-call webcast/transcript, not the 8-K, as the primary source. Builders citing Copilot adoption should note this distinction rather than imply a written regulatory filing states the number.
 
-- **What it's good for:** regulator-grade Copilot adoption data.
+- **What it's good for:** Copilot adoption data as actually disclosed (earnings call, not SEC filing text).
 - **Where BrassCoders draws from it:** the lead claim in the [Copilot division-of-labor post](https://coppersun.dev/blog/copilot-vs-brasscoders-division-of-labor/).
 
 ---
@@ -43,7 +43,7 @@ BrassCoders treats Cursor's public ARR trajectory — passing $500M in June 2025
 ---
 
 ### 🏢 Anthropic — Claude Code Run-Rate Disclosures 2026
-*Anthropic, public Q1 2026 disclosures*
+*Anthropic public disclosures, Feb 2026, as reported by MindStudio* · [mindstudio.ai](https://www.mindstudio.ai/blog/claude-code-2-5-billion-annualized-revenue-saas-comparison)
 
 BrassCoders treats Anthropic's reported $2.5B Claude Code run-rate as the third major data point in the AI coding assistant market (after Copilot and Cursor). The three-way market structure — GitHub-platform-default, IDE-native premium, terminal-native premium — is BrassCoders's working model for which AI assistants customers are using when they install BrassCoders.
 

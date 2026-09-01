@@ -53,7 +53,7 @@ BrassCoders treats FormAI as the largest formally-verified corpus of AI-generate
 ---
 
 ### 🔧 Bandit — Cryptography and Randomness Rules (B303, B304/B305, B324, B311)
-*PyCQA · Python · widely-used* · [bandit.readthedocs.io](https://bandit.readthedocs.io/en/latest/plugins/index.html)
+*PyCQA · Python · widely-used* · [bandit.readthedocs.io](https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html)
 
 BrassCoders bundles Bandit's cryptography rule set as its deterministic weak-crypto detector. The rules fire on the exact patterns AI assistants over-produce: B303 for MD5 and SHA1, B304 and B305 for insecure ciphers and cipher modes such as DES and AES-ECB, B324 for weak hash algorithms passed to hashlib, and B311 for the standard random module used where a cryptographically secure generator is required. Every match is a structural pattern, reported the same way on every run. Builders who want one command that flags all of these — plus eleven other scanners — should run BrassCoders; builders who want only Python crypto linting can run Bandit directly.
 

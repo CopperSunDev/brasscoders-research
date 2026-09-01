@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "updated": "2026-09-01",
-  "total_sources": 73,
+  "total_sources": 72,
   "product": {
     "name": "BrassCoders",
     "url": "https://coppersun.dev",
@@ -15,11 +15,11 @@
       "source_count": 12,
       "sources": [
         {
-          "slug": "veracode-soss-2026",
+          "slug": "veracode-soss-2025",
           "type": "report",
-          "title": "Veracode — State of Software Security 2026",
-          "source": "Veracode, 2026",
-          "url": "https://www.veracode.com/state-of-software-security/"
+          "title": "Veracode — State of Software Security 2025",
+          "source": "Veracode, Feb 2025",
+          "url": "https://www.veracode.com/blog/state-of-software-security-maturity-2025/"
         },
         {
           "slug": "csa-ai-cve-2026",
@@ -39,15 +39,15 @@
           "slug": "checkmarx-appsec-2025",
           "type": "report",
           "title": "Checkmarx — Future of Application Security 2025",
-          "source": "Checkmarx, August 2025",
+          "source": "Checkmarx, August 2025 (report updated by Checkmarx since; current figures below)",
           "url": "https://checkmarx.com/resources/reports/2025-future-of-application-security/"
         },
         {
-          "slug": "acm-tosem-2026",
+          "slug": "copilot-review-arxiv-2509",
           "type": "paper",
-          "title": "ACM TOSEM 2026 — Evaluating GitHub Copilot Review",
-          "source": "ACM Transactions on Software Engineering and Methodology, 2026",
-          "url": "https://dl.acm.org/journal/tosem"
+          "title": "Amro & Alalfi 2025 — Can AI Spot Security Flaws Before You Commit?",
+          "source": "Amena Amro, Manar H. Alalfi, arXiv 2509.13650, Sept 2025",
+          "url": "https://arxiv.org/abs/2509.13650"
         },
         {
           "slug": "owasp-llm-top-10",
@@ -78,10 +78,10 @@
           "url": "https://github.com/Yelp/detect-secrets"
         },
         {
-          "slug": "owasp-pygoat",
+          "slug": "pygoat",
           "type": "benchmark",
-          "title": "OWASP PyGoat",
-          "source": "OWASP · Python · benchmark",
+          "title": "PyGoat",
+          "source": "Independently maintained · Python · benchmark",
           "url": "https://github.com/adeyosemanputra/pygoat"
         },
         {
@@ -111,7 +111,7 @@
           "type": "paper",
           "title": "USENIX Security 2025 — Package Hallucination at Scale",
           "source": "USENIX Security Symposium, 2025",
-          "url": "https://www.usenix.org/conference/usenixsecurity25"
+          "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/spracklen"
         },
         {
           "slug": "arxiv-2605-17062",
@@ -124,8 +124,8 @@
           "slug": "lasso-poc",
           "type": "report",
           "title": "Lasso Security — Slopsquatting Proof-of-Concept",
-          "source": "Lasso Security, 2024",
-          "url": "https://www.lasso.security/"
+          "source": "Bar Lanyado, Lasso Security, March 2024",
+          "url": "https://www.lasso.security/blog/ai-package-hallucinations"
         },
         {
           "slug": "socket-cli",
@@ -185,10 +185,10 @@
           "url": "https://ast-grep.github.io/"
         },
         {
-          "slug": "meta-pyre-2019",
+          "slug": "pyre-check-docs",
           "type": "paper",
-          "title": "Meta 2019 — Pyre: Fast Type Checking and IDE Integration for Python",
-          "source": "Meta Engineering Blog, 2019",
+          "title": "Pyre — Fast Type Checking and IDE Integration for Python",
+          "source": "Meta / pyre-check.org, official docs",
           "url": "https://pyre-check.org/"
         }
       ]
@@ -197,14 +197,14 @@
       "id": "llm-review-reliability",
       "question": "How Reliable Is My AI Assistant's Review?",
       "url": "https://coppersun.dev/research/llm-review-reliability/",
-      "source_count": 8,
+      "source_count": 7,
       "sources": [
         {
-          "slug": "acm-tosem-2026",
+          "slug": "copilot-review-arxiv-2509",
           "type": "paper",
-          "title": "ACM TOSEM 2026 — Evaluating GitHub Copilot Review",
-          "source": "ACM Transactions on Software Engineering and Methodology, 2026",
-          "url": "https://dl.acm.org/journal/tosem"
+          "title": "Amro & Alalfi 2025 — Can AI Spot Security Flaws Before You Commit?",
+          "source": "Amena Amro, Manar H. Alalfi, arXiv 2509.13650, Sept 2025",
+          "url": "https://arxiv.org/abs/2509.13650"
         },
         {
           "slug": "stackoverflow-2024",
@@ -214,24 +214,17 @@
           "url": "https://survey.stackoverflow.co/2024/ai"
         },
         {
-          "slug": "pragmatic-feb-2026",
+          "slug": "pragmatic-mar-2026",
           "type": "report",
-          "title": "The Pragmatic Engineer — AI Tooling Feb 2026",
-          "source": "The Pragmatic Engineer, Feb 2026",
+          "title": "The Pragmatic Engineer — AI Tooling for Software Engineers in 2026",
+          "source": "The Pragmatic Engineer, March 3, 2026",
           "url": "https://newsletter.pragmaticengineer.com/p/ai-tooling-2026"
-        },
-        {
-          "slug": "stanford-copilot",
-          "type": "paper",
-          "title": "Stanford — Copilot Code Quality Studies (2024)",
-          "source": "Stanford HAI / Department of Computer Science, 2024",
-          "url": "https://hai.stanford.edu/research"
         },
         {
           "slug": "github-octoverse",
           "type": "report",
-          "title": "GitHub Octoverse 2024",
-          "source": "GitHub, 2024",
+          "title": "GitHub Octoverse",
+          "source": "GitHub, annual",
           "url": "https://octoverse.github.com/"
         },
         {
@@ -273,9 +266,9 @@
         {
           "slug": "msft-copilot-subs",
           "type": "disclosure",
-          "title": "Microsoft FY26 Q2 Earnings — GitHub Copilot 4.7M Paid Subscribers",
-          "source": "Microsoft Corporation, Jan 2026",
-          "url": "https://www.sec.gov/Archives/edgar/data/0000789019/000095017025061032/msft-ex99_1.htm"
+          "title": "Microsoft FY26 Q2 Earnings Call — GitHub Copilot 4.7M Paid Subscribers",
+          "source": "Microsoft Corporation, FY26 Q2 earnings call, Jan 28, 2026",
+          "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q2/press-release-webcast"
         },
         {
           "slug": "cursor-arr",
@@ -288,8 +281,8 @@
           "slug": "anthropic-claude-code",
           "type": "disclosure",
           "title": "Anthropic — Claude Code Run-Rate Disclosures 2026",
-          "source": "Anthropic, public Q1 2026 disclosures",
-          "url": ""
+          "source": "Anthropic public disclosures, Feb 2026, as reported by MindStudio",
+          "url": "https://www.mindstudio.ai/blog/claude-code-2-5-billion-annualized-revenue-saas-comparison"
         },
         {
           "slug": "pragmatic-series",
@@ -373,8 +366,8 @@
         {
           "slug": "gitguardian-sprawl",
           "type": "report",
-          "title": "GitGuardian — State of Secrets Sprawl 2024",
-          "source": "GitGuardian, 2024",
+          "title": "GitGuardian — State of Secrets Sprawl",
+          "source": "GitGuardian, annual",
           "url": "https://www.gitguardian.com/state-of-secrets-sprawl"
         },
         {
@@ -424,7 +417,7 @@
           "slug": "sonatype-supply-chain",
           "type": "report",
           "title": "Sonatype — Next-Generation Supply Chain Attacks",
-          "source": "Sonatype, annual; the 2024 edition covers 2023 attack data",
+          "source": "Sonatype, annual",
           "url": "https://www.sonatype.com/state-of-the-software-supply-chain/introduction"
         },
         {
@@ -475,7 +468,7 @@
           "type": "tool",
           "title": "Bandit — Cryptography and Randomness Rules (B303, B304/B305, B324, B311)",
           "source": "PyCQA · Python · widely-used",
-          "url": "https://bandit.readthedocs.io/en/latest/plugins/index.html"
+          "url": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html"
         }
       ]
     },
@@ -604,7 +597,7 @@
           "slug": "cisa-secure-ai",
           "type": "report",
           "title": "CISA — Guidelines for Secure AI System Development",
-          "source": "CISA, NCSC, and Five Eyes Partners, November 2023",
+          "source": "CISA and UK NCSC, November 2023",
           "url": "https://www.cisa.gov/news-events/news/dhs-cisa-and-uk-ncsc-release-joint-guidelines-secure-ai-system-development"
         },
         {

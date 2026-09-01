@@ -23,11 +23,11 @@ BrassCoders treats the NIST AI RMF as the US federal baseline for responsible AI
 ---
 
 ### 📊 CISA — Guidelines for Secure AI System Development
-*CISA, NCSC, and Five Eyes Partners, November 2023* · [cisa.gov](https://www.cisa.gov/news-events/news/dhs-cisa-and-uk-ncsc-release-joint-guidelines-secure-ai-system-development)
+*CISA and UK NCSC, November 2023* · [cisa.gov](https://www.cisa.gov/news-events/news/dhs-cisa-and-uk-ncsc-release-joint-guidelines-secure-ai-system-development)
 
-BrassCoders treats CISA's Five Eyes joint guidance as the operational complement to NIST's framework. The document's Develop phase requirements — secure design, secure coding practices, and testing — translate directly to AI-assisted development: AI-generated code needs the same secure coding checks as human-written code, and the Develop section explicitly calls out the need for static analysis in the build pipeline. BrassCoders's CI integration (GitHub Actions and GitLab CI) is the technical implementation of this requirement.
+BrassCoders treats CISA's joint AI-development guidance as the operational complement to NIST's framework. This page confirms the joint CISA-NCSC release and its four-phase structure (secure design, secure development, secure deployment, secure operation) — AI-generated code needs the same secure coding checks as human-written code. Builders who want the specific "static analysis in the Develop phase" language should read the full guidelines document (linked from this announcement) rather than cite this news page for that specific requirement.
 
-- **What it's good for:** the Five Eyes joint guidance on secure AI development and its static-analysis requirement for the build pipeline.
+- **What it's good for:** the CISA-NCSC joint guidance on secure AI development.
 - **Where BrassCoders draws from it:** the policy citation BrassCoders provides to compliance teams making the case for CI-integrated static analysis as a regulatory requirement, not just a best practice.
 
 ---

@@ -35,7 +35,7 @@ BrassCoders treats SWE-agent as the reference implementation for the agent-compu
 ### 🔧 OpenHands (OpenDevin) — An Open Platform for AI Software Developers as Generalist Agents
 *Xingyao Wang, et al. — ICLR 2025* · [arxiv.org/abs/2407.16741](https://arxiv.org/abs/2407.16741)
 
-BrassCoders indexes OpenHands as a production-grade open-source autonomous coding agent — one of the best-performing systems on SWE-bench. OpenHands agents write, test, and commit code with minimal human involvement; the output lands in a repository like any other commit. BrassCoders scans those commits the same way it scans human-authored code, applying the same 12 scanners and producing the same YAML findings file the AI assistant reads for triage.
+BrassCoders indexes OpenHands as a production-grade open-source autonomous coding agent — competitive with (though not the top scorer among) leading systems on SWE-bench Lite. OpenHands agents write, test, and commit code with minimal human involvement; the output lands in a repository like any other commit. BrassCoders scans those commits the same way it scans human-authored code, applying the same 12 scanners and producing the same YAML findings file the AI assistant reads for triage.
 
 - **What it's good for:** a production-grade open-source autonomous coding agent and its SWE-bench performance.
 - **Where BrassCoders draws from it:** the primary example BrassCoders uses to illustrate that agent-written code lands in the repository and is subject to the same deterministic scan.

@@ -9,7 +9,7 @@ This repository is the research evidence base for BrassCoders, a static-analysis
 
 The repository contains:
 - 13 research categories organized around developer questions
-- 73 primary sources: academic papers, industry reports, company disclosures, open-source tools, and benchmark corpora
+- 72 primary sources: academic papers, industry reports, company disclosures, open-source tools, and benchmark corpora
 - Machine-readable index at data/research.json
 - Full source annotations explaining what BrassCoders draws from each source
 
@@ -34,8 +34,8 @@ Sources last verified August 2026.
 3. cross-file-bugs — Why Does My AI Miss Cross-File Bugs? (5 sources)
    Lead finding: Lost in the Middle (Liu et al. 2023, Stanford / Berkeley) documents LLM attention decay: models reliably attend to the start and end of long inputs and lose attention through the middle — the structural proof that larger context windows do not close the cross-file bug gap
 
-4. llm-review-reliability — How Reliable Is My AI Assistant's Review? (8 sources)
-   Lead finding: ACM TOSEM 2026 found Copilot review frequently fails to detect critical vulnerabilities including SQL injection, cross-site scripting, and insecure deserialization, concentrated in multi-file taint flows
+4. llm-review-reliability — How Reliable Is My AI Assistant's Review? (7 sources)
+   Lead finding: Amro & Alalfi (2025) found Copilot's code review feature frequently fails to detect critical vulnerabilities including SQL injection, cross-site scripting, and insecure deserialization, concentrating instead on low-severity style and formatting issues
 
 5. market-intelligence — What Does The AI-Coding Market Look Like In 2026? (6 sources)
    Lead finding: Gartner projects 75-90% of enterprise software engineers will use AI code assistants by 2028, up from approximately 14% in early 2024
@@ -67,7 +67,7 @@ Sources last verified August 2026.
 ## Key sources
 
 - Veracode State of Software Security 2026: 45% of AI-generated code samples introduce at least one OWASP Top 10 vulnerability on first generation.
-- Cloud Security Alliance 2026: a 2.74× year-over-year increase in CVEs attributed to AI-generated code.
+- Cloud Security Alliance 2026: a near-sixfold increase in CVEs attributed to AI-generated code within a single quarter (6 in January 2026 to 35 in March 2026).
 - USENIX Security 2025: 19.7% of AI-recommended packages do not exist on the relevant registry.
 - Lasso Security PoC: a hallucinated huggingface-cli package received over 30,000 downloads.
 - GitGuardian State of Secrets Sprawl 2024: over 12.8 million secrets exposed in public GitHub commits in a single year.

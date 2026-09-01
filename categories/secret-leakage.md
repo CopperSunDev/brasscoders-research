@@ -12,10 +12,10 @@ Sources last verified August 2026.
 
 ---
 
-### 📊 GitGuardian — State of Secrets Sprawl 2024
-*GitGuardian, 2024* · [gitguardian.com/state-of-secrets-sprawl](https://www.gitguardian.com/state-of-secrets-sprawl)
+### 📊 GitGuardian — State of Secrets Sprawl
+*GitGuardian, annual* · [gitguardian.com/state-of-secrets-sprawl](https://www.gitguardian.com/state-of-secrets-sprawl)
 
-BrassCoders treats GitGuardian's annual State of Secrets Sprawl report as the canonical industry-wide measurement of credential leakage in public repositories. The 2024 edition found over 12.8 million secrets exposed in public GitHub commits in a single year — an increase from prior editions — based on GitGuardian's real-time scanning of the public GitHub event stream. Builders making the case for credential scanning to a security team or compliance auditor should anchor on these numbers.
+BrassCoders treats GitGuardian's annual State of Secrets Sprawl report as the canonical industry-wide measurement of credential leakage in public repositories, based on GitGuardian's real-time scanning of the public GitHub event stream. The URL is evergreen and rotates to the current year's report — check the live page for the current year's exact secrets-exposed count and AI-service-key growth figures rather than treating any cited number here as fixed. Builders making the case for credential scanning to a security team or compliance auditor should anchor on the current edition's numbers.
 
 - **What it's good for:** primary-source citation for the scale of secret leakage in the wild, broken down by credential type (cloud keys, database URLs, API tokens) and industry.
 - **Where BrassCoders draws from it:** the lead evidence for secret leakage being a pervasive operational risk rather than a hypothetical; referenced in the [AI Blind Spots pillar](https://coppersun.dev/ai-blind-spots/) under credential detection.

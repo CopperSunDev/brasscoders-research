@@ -13,7 +13,7 @@ Sources last verified August 2026.
 ---
 
 ### 📄 USENIX Security 2025 — Package Hallucination at Scale
-*USENIX Security Symposium, 2025* · [usenix.org/conference/usenixsecurity25](https://www.usenix.org/conference/usenixsecurity25)
+*USENIX Security Symposium, 2025* · [usenix.org/.../presentation/spracklen](https://www.usenix.org/conference/usenixsecurity25/presentation/spracklen)
 
 BrassCoders treats this as the canonical evidence for AI-package hallucination rates. The 19.7% non-existence rate across major models is the headline number; the paper also documents the persistence of specific hallucinated names across repeated generations (which is what makes squatting profitable). Builders running AI-generated pip install or npm install commands without verification are exposed at this rate.
 
@@ -33,9 +33,9 @@ BrassCoders treats this as the 2026 update to the package-hallucination threat: 
 ---
 
 ### 📊 Lasso Security — Slopsquatting Proof-of-Concept
-*Lasso Security, 2024* · [lasso.security](https://www.lasso.security/)
+*Bar Lanyado, Lasso Security, March 2024* · [lasso.security/blog/ai-package-hallucinations](https://www.lasso.security/blog/ai-package-hallucinations)
 
-BrassCoders treats this as the canonical real-world demonstration of slopsquatting. Lasso registered a hallucinated huggingface-cli package name as a proof-of-concept and received over 30,000 downloads from real developer machines before they took it down. Builders who think hallucinated imports are a theoretical risk should read this and reconsider.
+BrassCoders treats this as the canonical real-world demonstration of slopsquatting. Lasso registered a hallucinated huggingface-cli package name as a proof-of-concept and received over 30,000 authentic downloads in three months. Builders who think hallucinated imports are a theoretical risk should read this and reconsider.
 
 - **What it's good for:** showing the attack works in production, not just in papers.
 - **Where BrassCoders draws from it:** the worked example in Blind Spot 3 and the proof citation in the [hallucinated imports post](https://coppersun.dev/blog/when-ai-invents-libraries/).

@@ -8,14 +8,14 @@ BrassCoders treats this category as the reality check builders need before decid
 
 Sources last verified August 2026.
 
-## Sources (8)
+## Sources (7)
 
 ---
 
-### 📄 ACM TOSEM 2026 — Evaluating GitHub Copilot Review
-*ACM Transactions on Software Engineering and Methodology, 2026* · [dl.acm.org/journal/tosem](https://dl.acm.org/journal/tosem)
+### 📄 Amro & Alalfi 2025 — Can AI Spot Security Flaws Before You Commit?
+*Amena Amro, Manar H. Alalfi, arXiv 2509.13650, Sept 2025* · [arxiv.org/abs/2509.13650](https://arxiv.org/abs/2509.13650)
 
-BrassCoders treats this as the canonical evidence that LLM-based PR review systematically misses critical vulnerabilities. The paper documents Copilot review "frequently fails to detect critical vulnerabilities including SQL injection, cross-site scripting, and insecure deserialization" — concentrated in multi-file taint flows. Builders deciding whether Copilot review is the last gate before merge should treat this paper as the structural answer.
+BrassCoders treats this as the canonical evidence that LLM-based PR review systematically misses critical vulnerabilities. The paper documents Copilot's code review feature "frequently fails to detect critical vulnerabilities including SQL injection, cross-site scripting (XSS), and insecure deserialization," and finds its feedback concentrates instead on low-severity style and formatting issues. Builders deciding whether Copilot review is the last gate before merge should treat this paper as the structural answer.
 
 - **What it's good for:** evidence that LLM review cannot be the only gate.
 - **Where BrassCoders draws from it:** Blind Spot 1 in the [pillar](https://coppersun.dev/ai-blind-spots/); also cited in [CVE risk](https://coppersun.dev/research/cve-risk/).
@@ -32,8 +32,8 @@ BrassCoders treats the Stack Overflow survey's AI section as the canonical pract
 
 ---
 
-### 📊 The Pragmatic Engineer — AI Tooling Feb 2026
-*The Pragmatic Engineer, Feb 2026* · [newsletter.pragmaticengineer.com](https://newsletter.pragmaticengineer.com/p/ai-tooling-2026)
+### 📊 The Pragmatic Engineer — AI Tooling for Software Engineers in 2026
+*The Pragmatic Engineer, March 3, 2026* · [newsletter.pragmaticengineer.com](https://newsletter.pragmaticengineer.com/p/ai-tooling-2026)
 
 BrassCoders treats this as the canonical practitioner survey for late-2025 / early-2026 AI tool adoption among professional engineers. The 95% weekly-usage figure is the headline; the methodology is direct surveys of working engineers (not vendor-self-report). Builders making the case for AI-related investment to a board should pair this with the Stack Overflow data for the broadest practitioner picture.
 
@@ -42,20 +42,10 @@ BrassCoders treats this as the canonical practitioner survey for late-2025 / ear
 
 ---
 
-### 📄 Stanford — Copilot Code Quality Studies (2024)
-*Stanford HAI / Department of Computer Science, 2024* · [hai.stanford.edu/research](https://hai.stanford.edu/research)
+### 📊 GitHub Octoverse
+*GitHub, annual* · [octoverse.github.com](https://octoverse.github.com/)
 
-BrassCoders treats Stanford's work on Copilot completion accuracy as one of the strongest academic measurements of AI code reliability in practice. The methodology pairs human evaluators with completion outputs across language and complexity tiers; the conclusions inform the per-suggestion confidence reasoning that drives BrassCoders's "ranking matters more than detection" stance.
-
-- **What it's good for:** rigorous per-suggestion confidence measurement.
-- **Where BrassCoders draws from it:** background for the [8-findings-per-file](https://coppersun.dev/blog/why-claude-code-emits-eight-findings/) argument.
-
----
-
-### 📊 GitHub Octoverse 2024
-*GitHub, 2024* · [octoverse.github.com](https://octoverse.github.com/)
-
-BrassCoders treats Octoverse as the canonical primary-source measurement of platform-wide trends in open-source development. The 2024 edition tracks AI adoption, package registry growth, and language usage. Builders citing platform-side adoption numbers (as distinct from practitioner-survey numbers) should anchor on Octoverse.
+BrassCoders treats Octoverse as the canonical primary-source measurement of platform-wide trends in open-source development. The URL is evergreen and rotates to the current year's edition — check the live page for the current year's specific AI-adoption, package-registry-growth, and language-usage numbers rather than treating any cited figure here as fixed. Builders citing platform-side adoption numbers (as distinct from practitioner-survey numbers) should anchor on the current Octoverse edition.
 
 - **What it's good for:** platform-level adoption data, complement to Stack Overflow's practitioner-side data.
 - **Where BrassCoders draws from it:** reference for sizing the AI-augmented codebase population.
@@ -94,7 +84,7 @@ BrassCoders treats this as the direct measurement of why an LLM reviewer can't b
 
 ### How reliable is LLM-based code review?
 
-Useful for some categories, unreliable for others. ACM TOSEM 2026 found Copilot review "frequently fails to detect critical vulnerabilities including SQL injection, cross-site scripting, and insecure deserialization" in realistic multi-file codebases. LLM-based PR review catches style and obvious bugs well; it misses cross-file taint and structural security issues.
+Useful for some categories, unreliable for others. Amro & Alalfi (2025) found Copilot's code review feature "frequently fails to detect critical vulnerabilities including SQL injection, cross-site scripting (XSS), and insecure deserialization," concentrating instead on low-severity style and formatting issues. LLM-based PR review catches style and obvious bugs well; it misses structural security issues.
 
 ### Why does the same LLM that wrote the code miss bugs on review?
 
@@ -102,7 +92,7 @@ The model is biased toward its own generation. The same generative process that 
 
 ### What does the practitioner data say about AI tool trust?
 
-The Stack Overflow Developer Survey 2024 shows daily AI usage at 62%-76% (depending on phrasing) with trust trailing usage by a wide margin. The Pragmatic Engineer's Feb 2026 survey put weekly professional-engineer usage at 95%. Adoption is structural; trust is a separate gate that the detection layer has to earn.
+The Stack Overflow Developer Survey 2024 shows daily AI usage at 62%-76% (depending on phrasing) with trust trailing usage by a wide margin. The Pragmatic Engineer's March 2026 survey put weekly professional-engineer usage at 95%. Adoption is structural; trust is a separate gate that the detection layer has to earn.
 
 ### Should I drop my deterministic SAST when I add LLM-based review?
 

@@ -33,9 +33,9 @@ BrassCoders treats the GitHub Advisory Database as the canonical machine-readabl
 ---
 
 ### 📊 Sonatype — Next-Generation Supply Chain Attacks
-*Sonatype, annual; the 2024 edition covers 2023 attack data* · [sonatype.com/state-of-the-software-supply-chain](https://www.sonatype.com/state-of-the-software-supply-chain/introduction)
+*Sonatype, annual* · [sonatype.com/state-of-the-software-supply-chain](https://www.sonatype.com/state-of-the-software-supply-chain/introduction)
 
-BrassCoders treats Sonatype's annual supply-chain report as the canonical industry-wide measurement of malicious package activity across open-source registries. Sonatype tracks next-generation supply-chain attacks — malicious packages intentionally published to npm and PyPI with names designed to be confused with legitimate ones — separate from CVEs in existing packages. The 2024 edition documented a 400% increase in next-generation attacks over the prior three years. Builders making the case to security leadership for import-verification tooling should cite this growth curve.
+BrassCoders treats Sonatype's annual supply-chain report as the canonical industry-wide measurement of malicious package activity across open-source registries. Sonatype tracks next-generation supply-chain attacks — malicious packages intentionally published to npm and PyPI with names designed to be confused with legitimate ones — separate from CVEs in existing packages. The URL is evergreen and rotates to the current year's report — check the live page for the current growth figure rather than treating any cited percentage here as fixed. Builders making the case to security leadership for import-verification tooling should cite the current edition's growth curve.
 
 - **What it's good for:** executive-grade evidence for the scale and growth rate of intentional supply-chain attacks; distinguishes malicious-by-design packages from vulnerable-but-legitimate packages.
 - **Where BrassCoders draws from it:** referenced for the market-sizing context — the attack trend BrassCoders's phantom-package scanner defends against is growing faster than developer awareness of it.
