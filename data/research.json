@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-31",
+  "updated": "2026-09-01",
   "total_sources": 73,
   "product": {
     "name": "BrassCoders",
@@ -533,7 +533,7 @@
           "type": "report",
           "title": "Karpathy 2025 — Vibe Coding",
           "source": "Andrej Karpathy, X/Twitter, February 2, 2025",
-          "url": "https://x.com/karpathy/status/1886192184808149186"
+          "url": "https://x.com/karpathy/status/1886192184808149383"
         },
         {
           "slug": "perry-ccs-2023-vibe",

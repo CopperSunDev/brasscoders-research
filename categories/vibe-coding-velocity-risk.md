@@ -13,7 +13,7 @@ Sources last verified August 2026.
 ---
 
 ### 📊 Karpathy 2025 — Vibe Coding
-*Andrej Karpathy, X/Twitter, February 2, 2025* · [x.com/@karpathy](https://x.com/karpathy/status/1886192184808149186)
+*Andrej Karpathy, X/Twitter, February 2, 2025* · [x.com/@karpathy](https://x.com/karpathy/status/1886192184808149383)
 
 BrassCoders traces the practice directly to Andrej Karpathy's February 2025 post defining vibe coding as fully AI-driven authorship — the developer vibe-checks the output, barely reads it. The published N=15 AI-code-findings corpus shows what that produces: real security issues in 9 of 15 AI-generated Python files, with zero generation-time warnings from the model. The 30-second pre-commit scan BrassCoders provides is the gate that vibe coding removes.
 
