@@ -18,7 +18,7 @@ The index is organized around the questions developers actually ask when evaluat
 
 ---
 
-## 13 Categories
+## 17 Categories
 
 | # | Question | Sources | Live page |
 |---|---|---|---|
@@ -35,8 +35,12 @@ The index is organized around the questions developers actually ask when evaluat
 | 11 | [What Does Coding At AI Speed Do To Security And Quality?](categories/vibe-coding-velocity-risk.md) | 3 | [/research/vibe-coding-velocity-risk/](https://coppersun.dev/research/vibe-coding-velocity-risk/) |
 | 12 | [How Do I Secure Code That AI Agents Write Autonomously, Or Code That Uses Agents?](categories/agentic-ai-code-security.md) | 4 | [/research/agentic-ai-code-security/](https://coppersun.dev/research/agentic-ai-code-security/) |
 | 13 | [What Do HIPAA, GDPR, SOC 2, And Other Regulations Require When AI Writes Your Code?](categories/ai-code-regulated-industries.md) | 4 | [/research/ai-code-regulated-industries/](https://coppersun.dev/research/ai-code-regulated-industries/) |
+| 14 | [Will My AI-Generated API Let One User See Another User's Data?](categories/access-control-idor.md) | 5 | [/research/access-control-idor/](https://coppersun.dev/research/access-control-idor/) |
+| 15 | [Will My AI Use pickle.load Or yaml.load On Untrusted Data?](categories/insecure-deserialization.md) | 8 | [/research/insecure-deserialization/](https://coppersun.dev/research/insecure-deserialization/) |
+| 16 | [Does My AI-Generated Code Carry Hidden License Risk?](categories/code-provenance-license-risk.md) | 5 | [/research/code-provenance-license-risk/](https://coppersun.dev/research/code-provenance-license-risk/) |
+| 17 | [Will My AI Write A Regex That Hangs My Server?](categories/redos-resource-exhaustion.md) | 7 | [/research/redos-resource-exhaustion/](https://coppersun.dev/research/redos-resource-exhaustion/) |
 
-Total: **72 sources** across 13 categories.
+Total: **97 sources** across 17 categories.
 
 ---
 

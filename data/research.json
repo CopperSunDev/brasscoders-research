@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "updated": "2026-09-01",
-  "total_sources": 72,
+  "updated": "2026-09-04",
+  "total_sources": 97,
   "product": {
     "name": "BrassCoders",
     "url": "https://coppersun.dev",
@@ -613,6 +613,213 @@
           "title": "CISA — Secure Software Development Framework (SSDF) v1.1",
           "source": "NIST SP 800-218, February 2022",
           "url": "https://csrc.nist.gov/publications/detail/sp/800-218/final"
+        }
+      ]
+    },
+    {
+      "id": "access-control-idor",
+      "question": "Will My AI-Generated API Let One User See Another User's Data?",
+      "url": "https://coppersun.dev/research/access-control-idor/",
+      "source_count": 5,
+      "sources": [
+        {
+          "slug": "owasp-a01-2021",
+          "type": "paper",
+          "title": "OWASP Top 10 2021 — A01 Broken Access Control",
+          "source": "OWASP, 2021",
+          "url": "https://owasp.org/Top10/A01_2021-Broken_Access_Control/"
+        },
+        {
+          "slug": "owasp-api1-2023-bola",
+          "type": "paper",
+          "title": "OWASP API Security Top 10 2023 — API1 Broken Object Level Authorization",
+          "source": "OWASP, 2023",
+          "url": "https://owasp.org/API-Security/editions/2023/en/0xa1-broken-object-level-authorization/"
+        },
+        {
+          "slug": "salt-api-security-q1-2025",
+          "type": "report",
+          "title": "Salt Labs — State of API Security Report, Q1 2025",
+          "source": "Salt Security, Feb 2025",
+          "url": "https://salt.security/press-releases/salt-labs-state-of-api-security-report-reveals-99-of-respondents-experienced-api-security-issues-in-past-12-months"
+        },
+        {
+          "slug": "crapi",
+          "type": "benchmark",
+          "title": "OWASP crAPI",
+          "source": "OWASP · Node.js / Python / Go microservices · benchmark",
+          "url": "https://github.com/OWASP/crAPI"
+        },
+        {
+          "slug": "semgrep",
+          "type": "tool",
+          "title": "Semgrep",
+          "source": "Semgrep · multi-language · widely-used",
+          "url": "https://semgrep.dev/"
+        }
+      ]
+    },
+    {
+      "id": "insecure-deserialization",
+      "question": "Will My AI Use pickle.load Or yaml.load On Untrusted Data?",
+      "url": "https://coppersun.dev/research/insecure-deserialization/",
+      "source_count": 8,
+      "sources": [
+        {
+          "slug": "cwe-502",
+          "type": "paper",
+          "title": "CWE-502 — Deserialization of Untrusted Data",
+          "source": "MITRE, CWE List",
+          "url": "https://cwe.mitre.org/data/definitions/502.html"
+        },
+        {
+          "slug": "cve-2017-18342-pyyaml",
+          "type": "disclosure",
+          "title": "CVE-2017-18342 — PyYAML Arbitrary Code Execution",
+          "source": "GHSA-rprw-h62v-c2w7, published Jan 2019",
+          "url": "https://github.com/advisories/GHSA-rprw-h62v-c2w7"
+        },
+        {
+          "slug": "cve-2025-32434-pytorch",
+          "type": "disclosure",
+          "title": "CVE-2025-32434 — PyTorch torch.load weights_only Bypass",
+          "source": "GHSA-53q9-r3pm-6pq6, published Apr 2025",
+          "url": "https://github.com/pytorch/pytorch/security/advisories/GHSA-53q9-r3pm-6pq6"
+        },
+        {
+          "slug": "cve-2026-12484-keras",
+          "type": "disclosure",
+          "title": "CVE-2026-12484 — Keras TorchModuleWrapper Unsafe Pickle Load",
+          "source": "GHSA-v2w2-w228-c444, Keras",
+          "url": "https://github.com/advisories/GHSA-v2w2-w228-c444"
+        },
+        {
+          "slug": "jfrog-huggingface-malicious-models",
+          "type": "report",
+          "title": "JFrog — Malicious Hugging Face ML Models With Silent Backdoor",
+          "source": "JFrog Security Research, Feb 2024",
+          "url": "https://jfrog.com/blog/data-scientists-targeted-by-malicious-hugging-face-ml-models-with-silent-backdoor/"
+        },
+        {
+          "slug": "python-docs-pickle-warning",
+          "type": "paper",
+          "title": "Python Documentation — pickle Module Security Warning",
+          "source": "Python Software Foundation, docs.python.org",
+          "url": "https://docs.python.org/3/library/pickle.html"
+        },
+        {
+          "slug": "owasp-deserialization-cheat-sheet",
+          "type": "paper",
+          "title": "OWASP Deserialization Cheat Sheet",
+          "source": "OWASP Foundation",
+          "url": "https://cheatsheetseries.owasp.org/cheatsheets/Deserialization_Cheat_Sheet.html"
+        },
+        {
+          "slug": "modelscan",
+          "type": "tool",
+          "title": "ModelScan",
+          "source": "Protect AI · Python · open source",
+          "url": "https://github.com/protectai/modelscan"
+        }
+      ]
+    },
+    {
+      "id": "code-provenance-license-risk",
+      "question": "Does My AI-Generated Code Carry Hidden License Risk?",
+      "url": "https://coppersun.dev/research/code-provenance-license-risk/",
+      "source_count": 5,
+      "sources": [
+        {
+          "slug": "carlini-quantifying-memorization-2022",
+          "type": "paper",
+          "title": "Carlini et al. 2022 — Quantifying Memorization Across Neural Language Models",
+          "source": "Nicholas Carlini, Daphne Ippolito, Matthew Jagielski, Katherine Lee, Florian Tramèr, Chiyuan Zhang · ICLR 2022 · arXiv 2202.07646",
+          "url": "https://arxiv.org/abs/2202.07646"
+        },
+        {
+          "slug": "github-copilot-duplication-detection",
+          "type": "disclosure",
+          "title": "GitHub — Duplication Detection And Code Referencing For Copilot",
+          "source": "GitHub, Inc. · product documentation and blog",
+          "url": "https://github.blog/news-insights/product-news/introducing-code-referencing-for-github-copilot/"
+        },
+        {
+          "slug": "doe-v-github-copilot-litigation",
+          "type": "report",
+          "title": "Doe v. GitHub, Inc. — The Copilot Copyright Litigation",
+          "source": "N.D. Cal. No. 22-cv-06823-JST, filed Nov. 2022; on appeal at the Ninth Circuit as of 2026 · case commentary via Syracuse Law Review",
+          "url": "https://lawreview.syr.edu/update-in-copilot-copyright-claim-may-affect-future-challenges-of-artificial-intelligence/"
+        },
+        {
+          "slug": "scancode-toolkit",
+          "type": "tool",
+          "title": "ScanCode Toolkit",
+          "source": "nexB / AboutCode · Python · OSS, Apache-2.0",
+          "url": "https://github.com/aboutcode-org/scancode-toolkit"
+        },
+        {
+          "slug": "cisa-sbom-guidance",
+          "type": "report",
+          "title": "CISA — Software Bill Of Materials (SBOM) Guidance",
+          "source": "Cybersecurity and Infrastructure Security Agency",
+          "url": "https://www.cisa.gov/sbom"
+        }
+      ]
+    },
+    {
+      "id": "redos-resource-exhaustion",
+      "question": "Will My AI Write A Regex That Hangs My Server?",
+      "url": "https://coppersun.dev/research/redos-resource-exhaustion/",
+      "source_count": 7,
+      "sources": [
+        {
+          "slug": "cwe-1333",
+          "type": "paper",
+          "title": "CWE-1333 — Inefficient Regular Expression Complexity",
+          "source": "MITRE, CWE List",
+          "url": "https://cwe.mitre.org/data/definitions/1333.html"
+        },
+        {
+          "slug": "owasp-redos",
+          "type": "paper",
+          "title": "OWASP — Regular Expression Denial of Service (ReDoS)",
+          "source": "OWASP Foundation",
+          "url": "https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS"
+        },
+        {
+          "slug": "cloudflare-2019-outage",
+          "type": "disclosure",
+          "title": "Cloudflare — Details of the Cloudflare Outage on July 2, 2019",
+          "source": "Cloudflare (John Graham-Cumming, CTO), July 2019",
+          "url": "https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019"
+        },
+        {
+          "slug": "ghsa-ajv-redos-2025",
+          "type": "disclosure",
+          "title": "GHSA-2g4f-4pwh-qvx6 — ajv ReDoS via the $data Option",
+          "source": "GitHub Advisory Database, CVE-2025-69873",
+          "url": "https://github.com/advisories/GHSA-2g4f-4pwh-qvx6"
+        },
+        {
+          "slug": "ghsa-minimatch-redos-2026",
+          "type": "disclosure",
+          "title": "GHSA-23c5-xmqv-rm74 — minimatch ReDoS via Nested Extglobs",
+          "source": "GitHub Advisory Database, CVE-2026-27904",
+          "url": "https://github.com/advisories/GHSA-23c5-xmqv-rm74"
+        },
+        {
+          "slug": "eslint-plugin-security-redos",
+          "type": "tool",
+          "title": "eslint-plugin-security — detect-unsafe-regex",
+          "source": "eslint-community · JavaScript/TypeScript · 2,300+ stars, actively maintained",
+          "url": "https://github.com/eslint-community/eslint-plugin-security/blob/main/docs/rules/detect-unsafe-regex.md"
+        },
+        {
+          "slug": "semgrep-redos-analyzer",
+          "type": "tool",
+          "title": "Semgrep — The redos Metavariable Analyzer",
+          "source": "Semgrep · multi-language · bundled in BrassCoders",
+          "url": "https://semgrep.dev/docs/writing-rules/metavariable-analysis"
         }
       ]
     }

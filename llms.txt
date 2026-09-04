@@ -8,8 +8,8 @@
 This repository is the research evidence base for BrassCoders, a static-analysis CLI that scans AI-generated Python code for security vulnerabilities, performance anti-patterns, and supply-chain risks.
 
 The repository contains:
-- 13 research categories organized around developer questions
-- 72 primary sources: academic papers, industry reports, company disclosures, open-source tools, and benchmark corpora
+- 17 research categories organized around developer questions
+- 97 primary sources: academic papers, industry reports, company disclosures, open-source tools, and benchmark corpora
 - Machine-readable index at data/research.json
 - Full source annotations explaining what BrassCoders draws from each source
 
@@ -23,7 +23,7 @@ Sources last verified August 2026.
 - **OSS repo:** github.com/CopperSunDev/brasscoders
 - **Product site:** coppersun.dev
 
-## Research categories (13)
+## Research categories (17)
 
 1. cve-risk — Will My AI-Generated Code Ship A CVE? (12 sources)
    Lead finding: Veracode State of Software Security 2026: 45% of AI-generated code samples introduce at least one OWASP Top 10 vulnerability on first generation
@@ -63,6 +63,18 @@ Sources last verified August 2026.
 
 13. ai-code-regulated-industries — What Do HIPAA, GDPR, SOC 2, And Other Regulations Require When AI Writes Your Code? (4 sources)
    Lead finding: NIST AI RMF 1.0 (January 2023): US federal baseline for AI risk governance; GOVERN 1.7 requires documentation of AI system capabilities, limitations, and known failure modes
+
+14. access-control-idor — Will My AI-Generated API Let One User See Another User's Data? (5 sources)
+   Lead finding: OWASP Top 10 2021: Broken Access Control moved from fifth place in 2017 to first in 2021, present in 94% of tested applications, with 318,487 total occurrences across 34 mapped CWEs and 19,013 CVEs tied to the category
+
+15. insecure-deserialization — Will My AI Use pickle.load Or yaml.load On Untrusted Data? (8 sources)
+   Lead finding: CWE-502 (MITRE): Deserialization of Untrusted Data — the canonical taxonomy for pickle, yaml.load, and model-loading vulnerabilities, with gadget-chain attacks as the exploitation mechanism
+
+16. code-provenance-license-risk — Does My AI-Generated Code Carry Hidden License Risk? (5 sources)
+   Lead finding: Carlini et al. (ICLR 2022, "Quantifying Memorization Across Neural Language Models"): memorization in language models scales log-linearly with model capacity, training-data duplication count, and prompt context length
+
+17. redos-resource-exhaustion — Will My AI Write A Regex That Hangs My Server? (7 sources)
+   Lead finding: CWE-1333 defines ReDoS as a regular expression whose worst-case complexity is inefficient and possibly exponential in input length; also known as catastrophic backtracking
 
 ## Key sources
 
